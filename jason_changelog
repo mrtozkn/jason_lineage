@@ -1,1 +1,20 @@
-test
+2f1a63c81711e06edff0d423af41651daf9a0422 Tim Zimmermann sdm660-common: Set manifest target-level to 5
+a2fb078f18103580c81b78c37bb0c8014bcca950 Bruno Martins sdm660-common: Move to new RFS install_symlink targets
+2adea28843624a834f465be1fdf268efddbbd45e Michael Bestas sdm660-common: Inherit from legacy QTI FCM
+850d5f56af20439bdc5c3f8bbbfd31b545ffb540 Bruno Martins sdm660-common: Declare EGL libs as symlinks during extraction
+39c0c7c7f4735da1c3df3cbe5497b82bb0e2cff1 Bruno Martins sdm660-common: Declare IMS libs as symlinks during extraction
+f4436b8d0cf4b20ed63a685bbbb66d5f491d09b4 Michael Bestas sdm660-common: Include lineage FCM
+1114d71e3b785c8aaa0f0cf8a8b86efe5439ad1b mrtozkn sdm660-common: Inherit from QTI and common Xiaomi FCMs
+1b6fc6ab9763b19b955225e65a203bc022ef8b6b mrtozkn sdm660-common: Move to new RFS install_symlink targets
+0c4a0ae3f02d53bf14b0ba48c4629de56b181ccd mrtozkn sdm660-common: Move to new RFS install_symlink targets
+580aa0833f99a0293de6a4850b6bd7d321525dad mrtozkn Update sdm660.mk
+420899cdbf8be43df7ced77558fce3f0b4dc2aaa mrtozkn Update BoardConfigCommon.mk
+0546983473a9b697c0cc911b0467ae14c70639dd Edwin Moquete Revert "sdm660-common: media: Drop OMX.qcom.video.decoder.vp9"
+e879d9f63c804ac80564658cacd32ca063d9458d Nanhumly Revert "sdm660-common: Switch to Vulkan UI renderer"
+b6f131cccd63d731cb5163f9260fc4c94aa6f7dc Nanhumly sdm660-common: Update soter service from lavender V12.5.3.0.QFGCNXM
+f3535b411c6cb473810d9f903e56c82f0aeff6a9 raul16 sdm660-common: Remove suffix in vulkan-related permissions
+a3cc80444586221bfce2dfd204b01681b18248e9 Danny Lin sdm660-common: Switch to Vulkan UI renderer
+3a55e7ab53884366a24cfeb7c65ff4a325c7badb Edwin Moquete sdm660-common: Disable display refresh rate override
+ca37db782a4bb44462ae4adb8578dd1961fa68ca Bruno Martins sdm660-common: sepolicy: Remove rules moved to qcom sepolicy
+76c7d71f708d76c2d68098a16604dc6eaa03a37d Michael Bestas sdm660-common: Enforce vintf kernel requirements
+f6a70404315a2302aebdefbcb1ef0829f56873a5 Bruno Martins sdm660-common: Use the common device compatibility matrix from QCOM
