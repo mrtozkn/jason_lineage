@@ -1,3 +1,5 @@
+----------------------------- 2024-07-13 -------------------------------------
+
 2f1a63c81711e06edff0d423af41651daf9a0422 Tim Zimmermann sdm660-common: Set manifest target-level to 5
 a2fb078f18103580c81b78c37bb0c8014bcca950 Bruno Martins sdm660-common: Move to new RFS install_symlink targets
 2adea28843624a834f465be1fdf268efddbbd45e Michael Bestas sdm660-common: Inherit from legacy QTI FCM
