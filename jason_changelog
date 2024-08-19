@@ -18,3 +18,273 @@ a3cc80444586221bfce2dfd204b01681b18248e9 Danny Lin sdm660-common: Switch to Vulk
 ca37db782a4bb44462ae4adb8578dd1961fa68ca Bruno Martins sdm660-common: sepolicy: Remove rules moved to qcom sepolicy
 76c7d71f708d76c2d68098a16604dc6eaa03a37d Michael Bestas sdm660-common: Enforce vintf kernel requirements
 f6a70404315a2302aebdefbcb1ef0829f56873a5 Bruno Martins sdm660-common: Use the common device compatibility matrix from QCOM
+
+----------------------------- 2024-08-19 -------------------------------------
+project: android
+
+65587ae3dbb5712e9399f9d5d24e7fdd6999d95a Michael Bestas pixel: August 2024 Security Update
+b499aaea4628bbeb7f5bea37447ae4efceb1893f Michael Bestas manifest: August 2024 Security Update
+
+project: bootable/recovery
+
+7a3d4953abbd03d21b8d71c296a549d4e363b45b Luofan Chen recovery_ui: Retry for getting battery info
+
+project: build/make
+
+12a64c2575e65ab6d8cbbef4a3a8aacb95f8a4a1 David Anderson Revert "Remove non existent snapuserd.recovery package"
+34f580593729633708e4e3a680f24ceee2da861e Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+d9d49308159b6c0c66c6cbd7189cdbb813223345 Cosmin Tanislav Don't copy recovery.img to BOOTABLE_IMAGES if it doesn't exist
+
+project: build/release
+
+4af046676b13103e341537d8ed012df2c882f20b Ankur Bakshi Update Security String to 2024-08-05
+
+project: device/lineage/atv
+
+a57ced8555ca5185231195fabea8e25fd86ed175 Aaron Kling Add stadia controller key layout
+6db845b2fdd9d18da4952e3c6878e75daae4a2ed Cosmin Tanislav Override USB debugging dialog for TVs
+
+project: device/lineage/sepolicy
+
+07ab1b9ad36c309a1a8696181faa0491e4e1f5a6 Bruno Martins lineage: Label batteryless custom health aidl service
+
+project: device/qcom/sepolicy_vndr/legacy-um
+
+23e11dee2990379bfc457a6d61487689dbf4b4b3 Michael Bestas lito: Allow init write to discard_max_bytes
+
+project: device/xiaomi/jason
+
+ffc28228b73ee0989376383665c9f97e330baab4 iamehsangh Revert "Revert "Revert "jason: Forcing the use of prebuilt kernel"""
+561b3a5e46d03df55d87b5317e576b76839195f1 Yumi Yukimura jason: camera: Fix snprintf string truncation error
+06743eb9817ba1368cdd57127a4bdc8ba749f01c iamehsangh jason: Set INLINE_KERNEL_BUILDING to true
+
+project: device/xiaomi/sdm660-common
+
+5d30cfe9f8a5946def11b1b979d434cc12bf7fec iamehsangh Revert "sdm660-common: Switch to QTI Vibrator AIDL"
+fe678f4b0e524fc4119fa3cb6ede2218c801cb05 Michael Bestas sdm660-common: Add a device specific FCM
+8bef39ec540c7e544725a07fc506511d6948cf5e Michael Bestas sdm660-common: Build missing libraries for 14 QPR3
+908346163342c3e03c58c2efbfd16d5d0990392f Bruno Martins sdm660-common: Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+f804e2ea52d300665f37a2d03976dc715bb071b7 me_cafebabe sdm660-common: Switch to QTI Vibrator AIDL
+7bf73aef0f018a3d47e2f95a01565e0d5db46cc4 Shalini Manjunatha sdm660-common: audio: Add built-in/Back mic and remove TelePhony Rx
+b078228159af3b86f7eaebc7747552ed5851600c Bruno Martins sdm660-common: Declare EGL libs as symlinks during extraction
+f1381bcd2ef2eaf812d104c0431be556ac50f553 Bruno Martins sdm660-common: Declare IMS libs as symlinks during extraction
+705202389e7b816064ae8c2fcb1c5b967d0a52f7 dianlujitao sdm660-common: Nuke ATFWD
+ad1a3e0123374ebb7ae36ee4db94143d5955c685 Andrey Sprynga sdm660-common: Switch to common Xiaomi light HAL
+
+project: external/chromium-webview/patches
+
+3e66b092ae2b4b2fbf22b78af06d7bd4a47a0911 Kevin F. Haggerty Update Chromium Webview to 127.0.6533.103
+
+project: external/chromium-webview/prebuilt/arm
+
+942a54925fc83c92e0b3170f0efc4e2faab96579 Kevin F. Haggerty Update Chromium Webview arm prebuilt to 127.0.6533.103
+
+project: external/chromium-webview/prebuilt/arm64
+
+1be5632e3782e5d8d5acc5bf76d17f67261b9a33 Kevin F. Haggerty Update Chromium Webview arm64 prebuilt to 127.0.6533.103
+
+project: external/chromium-webview/prebuilt/x86
+
+bf30b1d2f746e8202072783055cc8316f5553074 Kevin F. Haggerty Update Chromium Webview x86 prebuilt to 127.0.6533.103
+
+project: external/chromium-webview/prebuilt/x86_64
+
+47c5a9ca49e991865fbd57cc85a2850eda60d541 Kevin F. Haggerty Update Chromium Webview x86_64 prebuilt to 127.0.6533.103
+
+project: external/setupcompat
+
+f4d805793a0bfb820fed5f794c0cfe9ed2a48b1b Oliver Scott Revert "Partial revert of "Import updated Android SetupCompat Library 592404403""
+
+project: frameworks/av
+
+a2bd776597d8eff0437bd6bbcaca12ba8a0a5834 Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+
+project: frameworks/base
+
+9d1249ce9787bd6ef3b6eaba4f8abb64491a4c45 LineageOS Infra Automatic translation import
+5dfaf3368b02500b38c72e5c75b945497cfb5e47 LuK1337 core: Move notification timeout code to NotificationAttentionHelper
+f9c33143b3906d07aebb782f214775a623ead94a LuK1337 core: Fix uninitialized settings in NotificationAttentionHelper
+ce95298cb0d0bc461d73f6d89724de7272ee9eb2 Pranav Vashi BluetoothDialog: Fix theme context
+389031749dcf106c1e35950b36df2d8fb2222759 Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+b09bbae04431ee815c67d39f84f3e3c53a7a91d4 althafvly BatteryMeterView: Battery icon available by default
+36da5963cfa1777bb6bca06e382a41e26ca625a0 LineageOS Infra Automatic translation import
+c0f798b79b3b980f5f7b49987c35b334d99d67e7 LuK1337 fixup! BatteryMeterView: Hide icon on battery-less devices
+629cf3b36dcc985d22ffa53588a8351304de5eae Bruno Martins BatteryMeterView: Hide icon on battery-less devices
+38900aa8efd02661f524371591c15505d0febd88 Bruno Martins Keyguard: Hide battery indication on battery-less devices
+
+project: frameworks/native
+
+7034776f087657972a67b2e84ba31bf63c8d4155 Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+
+project: hardware/interfaces
+
+727cbe0377d351973034826bc6704f531bf12fc6 Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+
+project: hardware/lineage/interfaces
+
+7cbd562024188b1db28158c3a284c9b7daba087d Aaron Kling health: Introduce batteryless aidl HAL
+
+project: hardware/xiaomi
+
+9aa34226ecbfefaf68a33e80a8667c249c592bf9 Piotr Kozimor vintf: Add IMiSys HAL in compatibility matrix
+c48e24f148695597facba4b51ad420be8f7a8b08 danielml Provide a Java library with required Xiaomi telephony methods
+c7145f5b7469fcbdc5a31cde7baf8615ba40b450 Adithya R fixup! dolby: Restore all settings upon bootup
+ed1e913a23420c101ef0f91eacfc2f1263a31479 Pranav Vashi dolby: Remove deprecated PlainTooltipBox
+f4dd9912cc7468d30564b31b6e238882440baeac Adithya R dolby: Introduce graphic equalizer
+53eba77d0fe128ffd7635da7ec37bebc53677717 Pranav Vashi dolby: Add launcher icon
+55d719785776e0d8b3b128f3e9bcfb382f967f9e Pranav Vashi dolby: Override AudioFx
+c567bf4adc3ecc94aba840aaf84c886c8708717c Adithya R vintf: Add more hals to fcm
+2a3271f9df73c439fcc397c4347e03ef77b637e6 Adithya R vibrator: effect: Fallback to click if an effect is missing
+6764e5c0ece0e29254a63b6bfe41120df456fcfc Arian vibrator: effect: Create double click effect from click if necessary
+
+project: lineage-sdk
+
+6f3fef1d3572471fdaae8e4bf3de7c165e95caf1 LuK1337 sdk: Move spn schema to vendor/lineage
+
+project: lineage/hudson
+
+06b126d8e1c75a02c947e7899fe97047f18a8bcb Vivekachooz hudson: Add Realme 10 Pro 5G
+be09bc0a7f7d4174e3b56e9bc03df8397898fb12 LineageOS Infra Regenerate device dependency mappings
+4d1df3c71a5533e4b8628b627b7674957e22aada danielml hudson: Add Redmi K60 Pro
+f00b4ac9df5ddf956fd5f1a006b4dbecf0e03cd9 Haky86 hudson: Add Galaxy A71
+90c6d42b7fcf868c5c11dfedadb327843294a246 LineageOS Infra Regenerate device dependency mappings
+ed8d3d75c2bacc9c097ff2b7d90c431fa964b715 LineageOS Infra Regenerate device dependency mappings
+b41a62af9e315edb569dd7c089d16a30aca80ff6 Andrey Sprynga Revive Google Pixel Ultra (prototype p2)
+efec9ae932f3e0e93c4eb68ba4a6d771d3315da7 Nolen Johnson "No, I'm Not From Earth, I'm From Missouri."
+9538e43bb0f7f6d69b7ed6ae22a98d200502c901 Nolen Johnson Should thor be with the lady foster, or the lady sif?
+7cbf42d0952d32af0da0c0912ca7a378c5e97987 Han Sol Jin Resume joan
+
+project: lineage/mirror
+
+2670d40c72e6681da8389bbd1fd8d770d4c057fe Tim Schumacher Updated to 11-Aug-2024 12:01 UTC
+91c6e0676f4952a68aad5bd52c7ca3b31b7f5199 Tim Schumacher Updated to 08-Aug-2024 12:01 UTC
+766a42a2e69a591fd1100c0aa2b894744b815696 Tim Schumacher Updated aosp-minimal to 06-Aug-2024 12:02 UTC
+ca869e546946d9dcb69617071e44de0f085310e9 Tim Schumacher Updated to 04-Aug-2024 12:01 UTC
+71f5a931b860bfe008687cce0761da70892f961f Tim Schumacher Updated aosp-minimal to 02-Aug-2024 12:02 UTC
+3108600f6876289d00cba4ee941b63e9232a37f3 Tim Schumacher Updated aosp-minimal to 01-Aug-2024 12:02 UTC
+ef18083c618453b7e95a5634129e8249aadaaf6b Tim Schumacher Updated aosp-minimal to 30-Jul-2024 12:02 UTC
+894e88f25e1f97f8cad830f8a22a6d4a2f91ae8d Tim Schumacher Updated to 23-Jul-2024 12:01 UTC
+422a7266fecadca8ac10e72889e64dc58956c25e LuK1337 Updated to 22-Jul-2024 21:38 UTC
+0a7bb0dd5c9bc4a89815cb33995ee2803662f9a0 Tim Schumacher Updated to 22-Jul-2024 12:01 UTC
+
+project: lineage/scripts
+
+e988793c8b7ef6922858e9f1fc7d3a0da90ab2f5 Kevin F. Haggerty build-webview: Update default webview to 127.0.6533.103
+
+project: lineage/wiki
+
+4d69c693404e02c34c2e155d4f7161a96d290c0f LuK1337 wiki: luigi/oscar: Document lineage version for firmware req
+5f9fafc800c2331c0bf92ff98f298ead62659faa Vivekachooz wiki: Add Realme 10 Pro 5G
+1a90dbd9a24441a94eb345feb78312c0b407a54c LuK1337 wiki: jekyll-ppi: Use map(&:to_i)
+88039578a0c2883fc924bacf5ee126b84c653e61 Haky86 wiki: Correct firmware version requirement for Galaxy A71
+3834542d7118781c34a5d1ce9f5a67915ea64edc danielml wiki: Add Redmi K60 Pro
+395bd1f09f300d1846d32bf68a45ad84cca8ff7e Haky86 wiki: Add Galaxy A71
+f866d388621ac4bca16bca8521a5426ed955b590 Nolen Johnson pages: signing_builds: Add signature reset patch for all LineageOS versions
+fabdb42a9dd85d91139c55c7439faf6e464157c5 lohithbb wiki: Add OEM unlock toggle mention to fastboot_sony
+217369d8e5d1c3e5f858cc757e19a5fcbe982a61 Andrey Sprynga wiki: devices: Add Xiaomi Black Shark (shark)
+a00744bfcd3677f76f3d36d1e895f520577af705 Nolen Johnson templates: recovery_install_*: Update kingroot app URL
+
+project: packages/apps/Aperture
+
+e6476260e38a11a9210c56974f019d967e4b2c05 LineageOS Infra Automatic translation import
+db5101d1b0f50b92ba557bce6c88e6ce009697a9 Cosmin Tanislav Aperture: change to FlashMode.OFF before switching usecases
+
+project: packages/apps/Car/Settings
+
+5a2ea7fdbc21b13dfffcce7659c4053e5cb70155 LineageOS Infra Automatic translation import
+
+project: packages/apps/Dialer
+
+d4bc695780a62c2bfad792f7ce47b1400d195bca LuK1337 Dialer: Add microphone to foreground service types
+f945bc448833a3e81afb070d991113e3b896b186 LineageOS Infra Automatic translation import
+
+project: packages/apps/Etar
+
+e99cb0ea861a90f59a53f79c6100e0328db5e042 LineageOS Infra Automatic translation import
+23e2ef99ae42801b71bbd8d9e7180715aa4100cb LineageOS Infra Automatic translation import
+
+project: packages/apps/Glimpse
+
+eed7feda3d7c82866c534decd31d5e008b2b2a38 LineageOS Infra Automatic translation import
+da0bed191ca58815c0fd5fe99bc1f758edb3d301 LineageOS Infra Automatic translation import
+
+project: packages/apps/LineageParts
+
+6e6d736906fd4bbacf73c236c08454c48ae3bfed Bruno Martins StatusBarSettings: Hide battery category on battery-less devices
+
+project: packages/apps/Settings
+
+7501947d19baa3b63fcdbd0569dee9c02cad2e9e LuK1337 fixup! Settings: Add setup UI for minimum delay between an app's notification sounds
+e9c4f62546f3cbb57099fced8a12e5ea68809763 LineageOS Infra Automatic translation import
+
+project: packages/apps/SetupWizard
+
+a4dd79f78d64b8f57283cb67f16e95d9dec83e38 Tommy Webb Adapt FinishActivity and outro for 14 QPR3
+1d833219d82d93abd57689ec7d859ebc484abed6 Tommy Webb SimMissingActivity is a regular SUW activity
+5948809bb431f59f0a831d253890da617ae765c6 Tommy Webb Rework activity launching and result handling
+635998c42d93c51fd362e308586c6ca2622a6485 Tommy Webb Refactor activity decorations and transitions
+3ba6626aab1337a78af61bd9f0a2014b64634b1e Oliver Scott Remove unused function disableComponentsForMissingFeatures
+ddd0c8d7acc412bacf164a215599a5fad10f5fdc Oliver Scott Check bluetooth status when relevant
+5584669c2e7cdfde90afd751c242d3cce9869616 Oliver Scott Check wifi/telephony/ethernet status when relevant
+2db34a23d7498e77d697b32c58a0ae2f623c6c33 Tommy Webb Check biometrics availability when relevant
+ab9a5ea27b147f41f7c8cd5f4f6e0a4e0de83e24 Oliver Scott Replace actionId and scriptUri extras with wizardBundle
+
+project: packages/apps/TvSettings
+
+b4fee837577057dabc5641ceb6d9c9dc3f56aa7a LineageOS Infra Automatic translation import
+b4881f7ac704398b4d5f0d13e29dde4d302249c3 Aaron Kling Allow disabling Frame Rate settings
+b4d9323b03cad7d9f568203b45c3341e87ab21f2 Ellen Arteca Ensure that LockscreenCredential#close() gets called
+00bcdb3aa30182b2d22d5d6cc201bc51dbd3ff6d Tuan Le Anh Fix the bluetooth headset without mic icon
+624f15b5d2203dce516f777006e1d3c8d55c77ef Tuan Le Anh Fix default focus in list fragment
+a0d76ad6a7b8d8b9896c4fcf3cf4da09fecbe6a6 mango.chen Enter corresponding fragment by mouse primary key only
+7e3641d35c370a3a6e6b3c0257c0f0b5f002a2af mango.chen Ensure the UI which impelemts by TwoPanelSettingsLib can enter corresponding fragment by mouse primary key
+a6fa219158b741f49b3308990b0595b0343c6acf eric_kuang Add status judgment for profile state during the initialization process of BluetoothConnector when profile is already connected, and change state into success.
+ad6db903d1f23cfc50474d6e75a7fc4996849bff eric_kuang.rs Replace to the parent URL when Bluetooth device is null.
+6ce77889bf29576c5756a242597a22ca32cfbdcd Luca Stefani Unbreak checking if A2DP is enabled
+
+project: packages/apps/TvSystemUI
+
+adddf3323e91d794360bcdb8b5c8bc15bfe7c042 Cosmin Tanislav Implement USB debugging dialog
+
+project: packages/apps/Updater
+
+6ef2ee7a34c1fbdbde72d16289d6bb1fab122540 LineageOS Infra Automatic translation import
+7c5230326febfbe9e5f8379d4d31f8104e0823ed Michael W Updater: Append trailing slash to upgrade url
+
+project: packages/modules/Bluetooth
+
+5d908840e484d32f57090b8db83d1dba0f3b7436 Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+
+project: prebuilts/extract-tools
+
+5185b280cdfb039a0fa8cc5c2da078bc5cfef708 Cosmin Tanislav common: add stripzip
+
+project: system/core
+
+9454d903def886e5721182160bdc5865dabe9470 David Anderson Make snapuserd recovery_available.
+
+project: system/security
+
+12112e1d80e6c4b31bf1aac46fa5fab940706884 Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
+
+project: tools/extract-utils
+
+2b8a3518b56c693280e1786b9f611a33a6629017 Cosmin Tanislav extract-utils: add apktool patching helper
+63e589e2485190d2472037622c7b55e9711e8c0e Cosmin Tanislav extract-utils: switch oat2dex to use prebuilt jdk
+
+project: vendor/crowdin
+
+17d99e2f5859f1776096ef12654441414e9943c9 LineageOS Infra Automatic translation import
+
+project: vendor/lineage
+
+05a72e961401fc14bdc2c1f054361e00e0fee952 Michael Bestas vars: Update redbull to August 2024
+2bf1bc81c9e934137cb5f7a8986b238763dd8345 Sebastiano Barezzi config: tablet: Enable freeform and large screen support for all targets
+3f0c84c2c087cd7be99e196237a139fa35d1edb1 Davide Garberi config: tablet: Enable freeform windows by default
+4e89bdb1ff50aa2791322b5e2b673989c9c4913f Sebastiano Barezzi config: tablet: Deduplicate full tablet configuration
+82cb3dc4974b44a94306ccc7d96a5dd6fc55a470 Sebastiano Barezzi config: Move LatinIME stuff to common_mobile*.mk
+799d12241646e58e233f8979638d4788ccdc9147 Sebastiano Barezzi config: Rename mobile-specific configs
+43ae0f9a7fb383cb6f563ecb96d40dad1c36428f Chirayu Desai vars: August 2024 Security update
+5520d33e062ca311c2cf013bcacc9eae53554ce4 Bruno Martins overlay: wifionly: Hide more telephony related features
+8ba07c4cfc72048f56240eb214830cda61261989 LuK1337 kernel: Deduplicate file paths in file_list.txt
+da4bb6099505ca53c7792080f8029f2340075379 Japie3krekel sensitive_pn: Add and modify netherland numbers
