@@ -107,6 +107,7 @@ project: frameworks/base
 5dfaf3368b02500b38c72e5c75b945497cfb5e47 LuK1337 core: Move notification timeout code to NotificationAttentionHelper
 f9c33143b3906d07aebb782f214775a623ead94a LuK1337 core: Fix uninitialized settings in NotificationAttentionHelper
 ce95298cb0d0bc461d73f6d89724de7272ee9eb2 Pranav Vashi BluetoothDialog: Fix theme context
+4becee5595f83f3b5cfa10ea7559e0f6056a2eb4 Lup Gabriel PixelPropUtils: spoof to Pixel 8a beta
 389031749dcf106c1e35950b36df2d8fb2222759 Bruno Martins Merge tag 'android-14.0.0_r55' into staging/lineage-21.0_merge-android-14.0.0_r55
 b09bbae04431ee815c67d39f84f3e3c53a7a91d4 althafvly BatteryMeterView: Battery icon available by default
 36da5963cfa1777bb6bca06e382a41e26ca625a0 LineageOS Infra Automatic translation import
