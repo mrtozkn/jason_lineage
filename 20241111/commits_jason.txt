@@ -1,0 +1,1051 @@
+====================
+    11-11-2024
+====================
+
+   * android
+format=2af1fc82b01337ab53adcd6cc5e574c2f7b93e17 manifest: November 2024 Security Update
+format=5a9d75919d00ae0f20323c80270816ec4638fd6b manifest: Track our device/google/contexthub
+format=d8074fa5cfc687e88a06b78ca98ff0bec6b9c8c7 manifest: Track our kotlinc/kotlinx.{coroutines,serialization} forks
+format=dc122a3f483323f8d6a7ef74cbc2355ff20bcb0e manifest: Track qcom bluetooth commonsys-intf
+format=cbd7dbc1ebed39ebc0c1adf0bc9fd652b697bffc manifest: Track our own blueprint and Virtualization repos
+format=1dc711f6b61220022706dd0a8d470b9a6f1b4f57 manifest: October 2024 Security Update
+
+
+====================
+    11-11-2024
+====================
+
+   * bionic
+format=e896f6b0e53ebc432fed637856458c9a3f4370e8 Revert "linker: Add support for dynamic SHIM libraries"
+
+
+====================
+    11-11-2024
+====================
+
+   * bootable/recovery
+format=cccb34529c3f4ecd5dfc2eb6b182ccade7d880c0 install: Only check ro.build.tags for user builds
+format=53f16d0942b92cbc37e18b72b2e378cd240abef2 recovery_ui: Opt-out battery monitoring on battery-less devices
+
+
+====================
+    11-11-2024
+====================
+
+   * build/make
+format=cbbde02c21b9863622137e116f51f54a8ed4ede7 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+format=248124d8e1f42cbbee311b329b66c7c249a73468 Export libacryl related flags to soong
+format=b103ddb005726c5ceff9ac9dc1aa2696f3f2da93 Export ril related flag to soong
+format=3544cf4eda9ab5e65aa8b86915ffa4303464907b Fix printf usage in _wrap_build()
+format=003635c95ecb9d800a8928db0793a994969f7f27 core/Makefile: Fix filenames with commas
+format=c6d0aca4bd057049465970f6fbf0eddd9a2df5fd Add TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION flag
+format=54a8532cb4f907ee22c3a826080e4fec006944ab core: Allow overriding device/model/name/fingerprint properties
+format=01baae0ae24c4cbb2d389ca7e685bfedb01c7241 Export PRODUCT_BUILD_PROP_OVERRIDES to soong
+format=229dc1900365bded9a6b3b0f1db8c92e98bf7563 Include TARGET_ODM_PROP to odm/etc/build.prop
+format=72cf4b7a4f6d1027b895fd024daadf6fa1d8852a Build product/odm build.prop with Soong
+
+
+====================
+    11-11-2024
+====================
+
+   * build/release
+format=0d371027177da3deadbd23486482dce4572ff2c4 AP3A: Set SPL to 2024-11-05
+format=2654c89041a0b346e4d204af214acab3a96bba1f Update aconfig flags for ap3a and trunk_staging to (ab/AP3A.241105.008).
+
+
+====================
+    11-11-2024
+====================
+
+   * build/soong
+format=681549f2a09613ab33abe57d7ee851066c53c324 Add vendor/lineage to kotlin plugins neverallow
+format=41029755d9166a3eeeac3af2e71690b62ca9e448 Add support for kotlin plugins
+format=ad0784406bfeaf45370fa8017a92b510bc81aca2 Add documentation for select statements
+format=9d6c7dc23c199e7931a0f61efb05e9d17477db74 Make the WholeStatic/Static/Shared libs properties configurable
+format=a3336a40f6ab23f93923b7740363636573e8fae5 gen_build_prop: Stop overriding ro.build.display.id for non-user builds
+format=03a92d7ad592feb7069859ab7a860ac0fb0f94a3 gen_build_prop: Set ro.lineage.device
+format=0b9811ed0ddb72c077e2efc1671634fb4fcb9527 Remove zeros from build number
+format=85dcbe3cd98e0c0a7fe8a97eacb17f37c243ba53 gen_build_prop: Set ro.minui.default_touch_rotation
+format=849506b86f951f5ccb489fdefa4125ae0f3057b6 gen_build_prop: Set ro.build.fingerprint
+format=95895800f0f326c7f18be17cb8323fde73daf6c9 Add support for prop overrides
+
+
+====================
+    11-11-2024
+====================
+
+   * development
+format=15605f69bdb38132281a0a267b970c8e1f65c805 Update bpflatten for blueprint changes
+
+
+====================
+    11-11-2024
+====================
+
+   * device/google/contexthub
+format=8e258d96e096e5ec4b70623417ae5780d28b4cca Revert "Removed unused Android.mk under device/google/contexthub"
+
+
+====================
+    11-11-2024
+====================
+
+   * device/lineage/atv
+format=80bd511255b398d135ddcce385455576fcd925e9 fixup! atv: idc: Make remotes all not wake by default
+
+
+====================
+    11-11-2024
+====================
+
+   * device/lineage/sepolicy
+format=9904c89fceb409e3248540240f6a3f3bdec7a8d2 sepolicy: Allow init load modules in recovery
+format=3a02308f5ba4d47bc5110aef5c052f228bcb0e6b sepolicy: Label `ro.recovery.batteryless` property
+
+
+====================
+    11-11-2024
+====================
+
+   * device/qcom/sepolicy-legacy-um
+format=a3126b0f74dba4ecc5eda3573b30734e2b0e7a95 common: Switch to AIDL USB HALs
+
+
+====================
+    11-11-2024
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+format=0a2cd870fd43b500b91bce758f8aa54aebdc427c sepolicy: Allow USB HAL to rw usb_data_enabled nodes
+
+
+====================
+    11-11-2024
+====================
+
+   * device/qcom/sepolicy_vndr/sm8450
+format=c6154eee95c2b7009728f72dae4ced83959dfd8a sepolicy: Allow USB HAL to rw usb_data_enabled nodes
+
+
+====================
+    11-11-2024
+====================
+
+   * device/xiaomi/jason
+format=66e7f09328739249f22a2ecd604a5d9022c7b7e1 jason:lineage_jason.mk: PRODUCT_BUILD_PROP_OVERRIDES removed
+format=77b5eaf245b0a50e35acb611657360f3821fe202 jason:recovery: edify.h location changed
+
+
+====================
+    11-11-2024
+====================
+
+   * external/chromium-webview/patches
+format=91081130b49e0547bbe5cef206227b218e2d5a3a Update Chromium Webview to 130.0.6723.73
+
+
+====================
+    11-11-2024
+====================
+
+   * external/chromium-webview/prebuilt/arm
+format=3a32a73ef730643c25b41c924fc3611bcd226824 Update Chromium Webview arm prebuilt to 130.0.6723.73
+
+
+====================
+    11-11-2024
+====================
+
+   * external/chromium-webview/prebuilt/arm64
+format=a264c13ab7ed1beaac1d39a098ecdbef10340811 Update Chromium Webview arm64 prebuilt to 130.0.6723.73
+
+
+====================
+    11-11-2024
+====================
+
+   * external/chromium-webview/prebuilt/x86
+format=66835db1c7f61420dc80199e41c3517d82c0635d Update Chromium Webview x86 prebuilt to 130.0.6723.73
+
+
+====================
+    11-11-2024
+====================
+
+   * external/chromium-webview/prebuilt/x86_64
+format=b8bf2979b57799074116963ebaa82c26301c045f Update Chromium Webview x86_64 prebuilt to 130.0.6723.73
+
+
+====================
+    11-11-2024
+====================
+
+   * external/kotlinc
+format=c3434db091f01ee6af79d19083b36dc68f8c10d4 Add a target for kotlin-serialize-compiler
+
+
+====================
+    11-11-2024
+====================
+
+   * external/kotlinx.serialization
+format=8f4c5d9fb94bee28478091de6f55a27e55fe7661 Export r8 rules to users
+
+
+====================
+    11-11-2024
+====================
+
+   * external/libncurses
+format=0ad6497d4121ab2dc2fa8bf61f74cdfc897d58b5 libncurses: Add recovery variant
+
+
+====================
+    11-11-2024
+====================
+
+   * external/nano
+format=30d82ca6c13e675e9dea93bccd931daf1c8e9509 nano: Add recovery variant
+
+
+====================
+    11-11-2024
+====================
+
+   * frameworks/base
+format=92db5dfdc9197c50d466753057f3cd4dd0c4a041 fixup! Implement firewall status bar indicator
+format=e33c027f9507c576fae600e476e0f67e1ca34dd3 KeyguardUpdateMonitor: Add missing getFaceAuthInteractor null check
+format=12f2819dc0b81db470dbb1e8e96feec61c718cb2 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+format=e92b8c8add79ea23353de4cd4ec316e1626f1627 Correction in logic of roundend size calculation of SD card
+format=572abdbf092a133196abb7997aaacbb225fa2bd3 fixup! ThemeOverlayController: Ensure we always disable the neutral overlay
+format=2ee954ebc37aeafd53caaa727dd4cf64138592cb Revert "PackageManager: Allow build-time disabling of components"
+format=8bd951c79fd7360c0944bb5750e0654202d63b1e ThemeOverlayController: Ensure we always disable the neutral overlay
+format=24d0a54dc547ee967bb48827bffd2e682cb059bf ThemeOverlayController: Don't enable neutral overlay when we use dark bg
+format=302a9567b0d70b126c31742fa013afde5d003aef SystemUI: support black theme for dark mode [1/4]
+format=fc2d61b2a21617f152375889597696d30fee0f85 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * frameworks/native
+format=1a656213bf1db9e6ad1ee6c5c198085e7f250382 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+
+
+====================
+    11-11-2024
+====================
+
+   * frameworks/opt/telephony
+format=6f74d80eb1b0dcbc496e91782cd4e7c0b985f408 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+format=b5e890aa6ef40d6d0c739f70c19b53ed43f8234e RIL: Fix manual network selection with old modem
+format=f72514164383375a10b21f8778c9ce5cf720d1a6 Provide a default executor
+format=834cba775553be3050453a51b1d74e3d836be9ff telephony: Disable handling audio direction changes on IMS calls.
+format=1fba670c477a7c9cb0006d1301248b983939e70e Conditionally revert "Block Binder thread until incoming call process completes"
+format=6454a2a02150ea4a9ebb21a9262712d6bf022328 PhoneSwitcher: Skip state check guard for HAL_COMMAND_ALLOW_DATA users
+format=e8cafcafc06f376b189f214b64d867fed627786b PhoneSwitcher: Fallback to HAL_COMMAND_ALLOW_DATA when DDS switch fails
+format=a75d6540a8d297f1245b9320d1810f0643a3d65c RadioMessagingProxy: Fix sending CDMA IMS SMS
+format=5c9dc29a13aa494773be0cf8cc29c1ca4e17b5a5 Update external card state based on current app
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/google/gchips
+format=39efe732ec232da1a6b16f5cd80990e52ff12fdb Convert libVendorVideoApi to soong
+format=3e22d8fd032c5a855e2596c61d2e8564c970bb07 Convert libexynosutils to soong
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/google/graphics/common
+format=dbdd70029cc7e8b16ab12bde9f9895423fb7a824 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+format=8e98b7dfece363f17455e8d2881a403031954f7e Convert libacryl to soong
+format=dcf5647615c7c3a2b5566110f1a6d725cb66c15e Convert libexynosv4l2 to soong
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/google/pixel-sepolicy
+format=a9148a792ac0c3913aca71a9dddfaa2986969904 fixup! Move turbo_adapter policy out of googlebattery
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/interfaces
+format=27f13c15c97a3162b417ef14b3cb2bf354861fc5 Override AIDL CAS HAL if HIDL is built
+format=19462c370c0e1164d7249937ef5c2b69fdcb3a13 fpc: Fix potential nullptr derefs
+format=416b0c30ba2dfe75d45dc311302ec9d0043d4dca Partial revert "Remove mapper from composer2.1 VTS"
+format=1daae3e2d59b500b12bb614d873c51b3237e5d57 bluetooth: do not fatally error on unknown packet types
+format=603fa77836464848be0286813fe9b6f67ed80bd0 compatibility_matrices: Add p/android-4.4 into FCM 5
+format=6b5a74dfee2c9d6f8e940c365b2755accbfbfa11 Restore q/android-4.9 again
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/lineage/compat
+format=7ac87c6703770a05083ea38abf51e4a18c170fe3 libhidlbase-v32: Mark as recovery_available
+format=21dc8335eaddf8ddf40ea9e3a26b238c72c09877 libhidlbase-v32: Allow on system_ext
+format=f5550fe48b931d36249de30e1803b04da592192d libcrypto_shim: Allow on system_ext
+format=7b68e5acd6b04e3b8f2ba5b8168f5721596fc0ff compat: Add libmeminfo_shim
+format=85993cea417f0e1028f4c4c80e0e542993f9c328 compat: Provide {libbinder,libhidlbase,libutils}-v32
+format=f7f5e576a37b7638753bf898d0500829cdd38f1b compat: libinput: Provide KeyEvent fromNative/toNative JNI methods
+format=98f409f191ef6a80315e90e1fff3f86b3fea9ca8 compat: Provide libui-v30
+format=140cc4986ba03de7c99242adc6a04e58b956d211 compat: Add KeyEvent::initialize libinput shim
+format=aada217a220d6f179b7001cdde275c880f150eb8 compat: Add PointerProperties::copyFrom libinput shim
+format=c5bf3a953de45cdb856d9cf177c04143aa42cd13 compat: Add MotionEvent::initialize libinput shim
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom-caf/sm8150/media
+format=2befa216deefed5beb5029808a1c94f578cc89d9 fixup! conf_files: Remove software OMX blobs
+format=230adb972dc1ee3e4ac2e323fb34b10f04cf2cc7 conf_files: Remove software OMX blobs
+format=e8c9145a62f81057859f881571a7128ca2eefdaa conf_files: Remove software omx codec references
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom-caf/sm8450/audio/primary-hal
+format=7535d6ae5f7ef710b2dd97fe0ceb581437c95e06 hal: Guard primary audio HAL in case target provides prebuilt
+format=33665f8e909d21f363918020a7d9ebf3cda01f9f configs: Allow setsockopt syscall for qcom c2audio
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom-caf/sm8450/display
+format=f3207cf9f96c6e2f160c2bf1c5a085a8e05749f6 composer: Separate rc and xml from service
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom/data/ipacfg-mgr
+format=13ef0a0f21c47274a2bf0abe2beaa34ad693a852 ipacm: Get rid of `using namespace std;`
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom/display
+format=ae3b06925eb8a9bc1fbff7597dd6eac5e37f4088 msm8998{6,8}: libgralloc1: Drop unecessary libcxx include
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom/sdm845/data/ipacfg-mgr
+format=95f03df03602489209d1a8561178d2e752d62384 ipacm: Get rid of `using namespace std;`
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom/sdm845/display
+format=49dfea67eba7c7b4e7831971e244ea9ca529e387 Convert libgrallocutils to Soong.
+format=03a8b675cb49ccc8a946cb0d37cdd9a32b8470fb Convert some display libraries to blueprint
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/qcom/sdm845/gps
+format=cad27c54084f7a27170a5d507ea2a1063f7bd73f Android mk to bp conversion
+format=a5a8facfffe8fcf50e9b43644f77071e6b0d8138 Move sdm845 files to the top folder
+format=a0b92f4e9eeb464113541169835a729674889bde Remove non-sdm845 source
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/ril
+format=a5c16924b680cf9b1754428f028037eace52193f Convert rild to soong
+format=c7261046b86dda39f0444e73459b7b4edef63cba Convert libreference-ril to soong
+format=199e4d4da50570e16d5ca98c989de6a85edda86a Convert libril to soong
+format=abc842bc0c6d4854d959631a6e431ddfde1fa415 Revert "libril: allow board to provide libril"
+
+
+====================
+    11-11-2024
+====================
+
+   * hardware/xiaomi
+format=84114f9308673fc9408e07dd7c8bc59ccae105bb dolby: Exempt installing package in clone or private space
+
+
+====================
+    11-11-2024
+====================
+
+   * lineage-sdk
+format=5a577dc607b0ca8563f7a5083f7667f33fa042ec sdk: Make it REUSE compatible
+format=87d20850bfef0fd633dd316d92ff4e7fe62cf48a sdk: Remove unused .gitignore
+format=5efaee2299e9dd6556b1c8246aefe963d8d8458a sdk: Remove SettingsProvider tests
+format=756427f9739c00b27e6f13ada4d15c4e24d0f94f sdk: Remove unused proguard.txt
+format=303a108276b1585d20b7004c4e528bc246b8fac1 Remove 'build-time disabling of components' resources
+format=8c849ce234c77043bbc586eb989a7641a9d9275f sdk: Remove tests
+format=cd36464e00e550b3551a6482b2a75e6f3ea8d263 sdk: Remove CleanSpec.mk
+format=82a2cae27e7b54b312501c2383f080a8afc37f84 sdk: Remove most public sdk parts
+format=88916babb88a6b3abdd81ddbdc96be32503c5604 Remove values-lu
+format=9ea8d63ea1f37c3d4113fbe547d90a9888ca316d Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * lineage/crowdin
+format=bd9a4585f28aacbc34dec019fd38b088ef0a8e09 config: Add Twelve to 22.0 extra packages
+format=f283e956fcb64c842c4076bfebe179a109aac55c config: lineage-22.0: Remove car-broadcastradio-support
+format=cc4db851ff9e3c001f6dc32df0332edeae626a85 ci: Install yq from snap
+format=890174dc5d23ddc48b4fd17ecc6bf9de8b7c71b5 ci: Add file validation for config/*.{xml,yaml}
+format=f198a3a633890e1df45cab284b2b50dfd8dd3268 config: Add missing projects
+format=78c522e4c599420980fd02d12194a88a40d35dd1 config: Add fmapp2 strings to lineage-22.0
+format=c3a2d6a6f0804dfb6261a52df3f1d77b6a376e1c config: Initial lineage-22.0 changes
+format=df2b174774040b2da38caf7d77525b05c4d7c102 config: Drop lineage-18.1
+
+
+====================
+    11-11-2024
+====================
+
+   * lineage/hudson
+format=8d6ecd79a51d96f204d9bdca9b05fb3c6efe8d38 Regenerate device dependency mappings
+format=9bcb88e36fabe16baf20b7072bf0aa3014a7983d hudson: drop 19.1 experimentals
+format=f24852ac0819478e2fd6ac0ec68b5a079bf38a66 hudson: Resume builds for nx606j and nx619j
+format=079039640dd30c131a1ebf761f48d50ffb4b4d11 Regenerate device dependency mappings
+format=56efcc79d9fb2731ed943644a4dac7a192149a66 Regenerate device dependency mappings
+format=1ad6fa237cfa32d3acc75c8f4050e41ac0c37c08 Regenerate device dependency mappings
+
+
+====================
+    11-11-2024
+====================
+
+   * lineage/mirror
+format=9c0e75ed2f136c872c359203af5f917dda1a410f Updated aosp-minimal to 07-Nov-2024 13:02 UTC
+format=4ccddbf0ed783c93f238ec4cc0060c428442a264 Updated to 06-Nov-2024 13:01 UTC
+format=1633fd83b5a5c6bbb383ac97ad8439553399f7c5 Updated lineage-minimal to 02-Nov-2024 13:01 UTC
+format=6f1423dbe9a3fd42c05429801183899a1a66b0b5 Updated to 02-Nov-2024 13:01 UTC
+format=fd3c5a097b008a4cf266ba4aa50d79b7469d85fb Updated aosp-minimal to 01-Nov-2024 13:02 UTC
+format=fd4bb415c12e2db3e8877624f8b978c3a1045af1 Updated aosp-minimal to 31-Oct-2024 13:02 UTC
+format=dca54c292d95033e906082c35749aaee5344dd84 Updated aosp-minimal to 30-Oct-2024 13:02 UTC
+format=04238570a1e138755afc7a75e064fc992f395602 Updated aosp-minimal to 29-Oct-2024 13:02 UTC
+format=45f4a42237a5d2e3396ce04afade7dbb7440ac69 Updated aosp-minimal to 26-Oct-2024 12:01 UTC
+format=26cd33f5c40f7ac1e933e41ebd638b90c7cd91e6 Updated aosp-minimal to 25-Oct-2024 12:02 UTC
+
+
+====================
+    11-11-2024
+====================
+
+   * lineage/scripts
+format=cf89200746d0d7a73e6926f064abb8d136956177 pixel: Adapt to new build prop override scheme
+format=5ac8f5a5783827c62fadbd635f4a9c2ec734d834 pixel: Changes for python extract-utils
+format=6ca3c81c39fa9c3ab09d591091c02993b87ad3df reuse_helper: Handle proguard.flags, aidl and fix bp
+format=023e86f8fe46cbc3afc0009aac0aa361bf9187d5 build-webview: Update default webview to 130.0.6723.73
+
+
+====================
+    11-11-2024
+====================
+
+   * lineage/website
+format=385b743e6862848864b84e0b4ffbd8e7ced04c30 www: Make site title more succinct
+
+
+====================
+    11-11-2024
+====================
+
+   * lineage/wiki
+format=6b6fd1e9eb8d163e9ca803a5159d0bb711276d07 wiki: apt-get -> apt
+format=8ae0d64ea51940a88a9d6f5130b14c29083474ca wiki: FP5 needs 14 firmware
+format=a010b8435cdea3ab1932a5f0a09130400bd3e7dc pages: Document about LineageOS inside libvirt QEMU VM
+format=c407ef14606ae660ff01de8371a30fc3f146e2b9 wiki: Update keys list for 15
+format=d8a3a2c6ea4c3acd426b0467eb2dfadaaf1c8e97 wiki: Dehardcode URL from oscar fw update template
+format=77a65b42d797bf046ef33ce8733a4846f2d628b3 wiki: Re-ship nx606j and nx619j
+format=b7ac1624e011d0ee602ae1ac41c66f42857ab4fe wiki: Improve phrasing in BL unlock prompt description
+format=66237dbac80f997049d9d948b27f6877f6011df8 pages: gapps: Correct dot version for 19.1
+format=b1b4b99449e9dd208fead3d93f02db9a9f0c2a38 wiki: Set recovery_reboot to fastboot_menu for FP3
+format=ab95fb77667c81701ef620d73be46aacb7239c87 wiki: Add /verify link to the verifying_builds.md page
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Aperture
+format=950a507cc611e8bdcd1bfcaece0204edfbb5f284 Aperture: Update CameraX to 1.5.0-alpha03
+format=a87bc500ec9c0dc5480464893bbf0d33b4e5a207 Aperture: Use AOSP material & lifecycle-common
+format=084bbbf9d87bb46a04d246f5571bfee49f2de322 Aperture: Update to SDK 35
+format=b674847f762d8c0e4de0a14d9ff444a37426788d Aperture: Update AGP to 8.7.2
+format=390f4866d8248386d392034f9f5013d78896bdbc Automatic translation import
+format=e926ecda865a199a60d2ec5a9334ebd5687fffbe Aperture: Don't use resource from other package
+format=b0e033b875fcce7d856ed46301c97ef7892785dd Aperture: Optimize and shrink resources
+format=497959566cdd80b0c73290499bd3293d67f135c5 Automatic translation import
+format=3d6eb266012d8e78ece7f5b02745802d9381c2c8 Aperture: Replace deprecated .reuse/dep5 with REUSE.toml
+format=df5445e7cb1facabf6d265e690d974df9b3875d1 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/AudioFX
+format=2b4fad3ff48fec2f706c44bc62a36e6dd6875487 Remove values-lu
+format=74e43b3346d94d111be79ab4144afd9cc9b0d9f7 AudioFX: Convert tests to Android.bp
+format=4df6600f257ce0f1813a254bacaa20619fee26f0 AudioFX: Fix tests build
+format=ec16c8d3e2dac20216afa4334f4ecdbf07b10810 fixup! AudioFX: Add exported flags in manifest
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Backgrounds
+format=2920955e64c4e893c75f4cdb98fe2566bd9f1490 Automatic translation import
+format=07226fe4a81d9ab12ad3d4afb8da66a2059cc142 Backgrounds: Make it REUSE compatible
+format=18d27ce5435e522b99f57b98e3cc3f11dd297cf3 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Contacts
+format=de2d59bc09a308c48fe08da0dd0af8622be185e3 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/DeskClock
+format=423acc643585659acbf15b3a6cc9edadc5c0ddfc Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Dialer
+format=39bea136b8c7eec88ff017985b4583f9b3b03eee Dialer: CallLogFragment: Move Un-registering call log observer to destroy
+format=aa95a51dd51b2774ec71d26bf87ddceaf5972656 Fix unnatural animation while move up "Swipe down to reject"
+format=e8e53524de54bfdfe63e7b1dd1af4212225a8d60 Dialer: Fix LetterTileDrawable for all languages
+format=3377bb1d46803f3b4e6ae318138e23a1cdbb6f4e Dialer: Use system fonts
+format=3302592dc998588b21aa6dbf82953bc3866c2267 Dialer: Remove unused drawable
+format=a16d46b04770c09cf7ea0b3883c621dbd3ff4780 Dialer: Fix in-call RTT banner item colors
+format=976318256674a093c9f9a350f6ae16135c7db8dc Automatic translation import
+format=f7033c1046818cfbe395b29e8ed1db53776953a2 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/DocumentsUI
+format=bd011efd7012b80c6475ade46cec883b3d1ce8bb Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Eleven
+format=3a01ff67ac2e2db0936b2f76fc5d44d10b7b4752 Remove values-lu
+format=cc6425f94a12cab4efb998b26de348ba85c9e8df Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Etar
+format=cfc7f1dfc0496a311ed84b4cc52caec4196950b5 Remove values-lu
+format=3e49484345836f996e9d24f1cb83b28131ef2ff9 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/ExactCalculator
+format=b10a222ee72a1627ed1b20efbc3e7e9d71104b3c ExactCalculator: Setup for edge to edge support
+format=f9f0b82ee71af68c28366f98d1019263f2c19644 ExactCalculator: Bump SDK version to 35
+format=33358c3766b1dd8481bdd0123ef17908b8525cdb ExactCalculator: Bump to latest stable AGP, Gradle and dependencies
+format=760b63bba45f33696707646d7e62d086e9154808 ExactCalculator: Switch to dedicated layout for license activity
+format=0a67a772a88ea6d22c6390e44c0cb251e4e9fef8 ExactCalculator: Add missing newlines to all files
+format=5d956276ff5effac9dc04675a206c38b0f8c5ee0 ExactCalculator: Set default_applicable_licenses
+format=8f2d4e7c6c7022b5169b01d83d80f350dc896203 ExactCalculator: Make it REUSE compatible
+format=1c907f8b155aee66dd7d7b50f2319bc5144e8b5a ExactCalculator: Remove CleanSpec.mk
+format=9602469cafc0ecf9abdfbb2160e3e2415eecbf05 ExactCalculator: Use background color for history frame
+format=7f554957b1f0dfbd2c278e03f17b910ea1a46b57 ExactCalculator: Set sdk_version to 34
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/FMRadio
+format=be7524a28a8adbd018b34fb9a4efd22a8a8e2037 FMRadio: Remove unused string
+format=ee47f7af12b93dac8c0982f71ac8c329423baadf Automatic translation import
+format=3a33db46414421a81e75cc4af07bc9b4eba528f2 FMRadio: Convert to Android.bp
+format=bf2c007435fd3a32bdf957ca0656661a30eb27dc Remove values-lu
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Gallery2
+format=9c5801d456a616be0a7091e5b3be0f1ff965aeff Remove values-lu
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Glimpse
+format=42ab488da87e40a22dc9f8f6d76dcf6d2f74478b Glimpse: Use AOSP material
+format=cbb3002a00a32abeb3f21ef31b6ab938e7038b95 Glimpse: Update to SDK 35
+format=4254672a81b01faa9d9520b22f0dd4bd06281377 Glimpse: Update AGP to 8.7.2
+format=bb579276bf814b65574498a1d145338e30da8e8a Glimpse: Optimize and shrink resources
+format=6812579e8487ed1a6189815236e25482d01c62cf Automatic translation import
+format=9f8dd1bae62b5be8616df175a202bb9d299e51fa Glimpse: Add android.intent.category.DEFAULT to main intent filter
+format=2fe9b54e3bea51da4b6bb2856fffc9dfa7b649b2 Glimpse: Replace deprecated .reuse/dep5 with REUSE.toml
+format=718ed7c2501d1882981ac32f890d83f3b1db9b7a Glimpse: Sort items based on modification time
+format=283ddcaf8e0b21f55bf0e1c5ac8f4e15dee28357 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Jelly
+format=215e423e2f06fab88f78590987bafb9d90c95fcc Jelly: Don't change immersive mode on focus change
+format=4644d2b753b66947ffa616b0404cefcf8ef32256 Jelly: Refactor immersive mode
+format=db352a5143a611708967bd3348798b80e5d24fe9 Jelly: Use AOSP appcompat and material
+format=c64b4dcb9f0f391e4670bf4da986cfcfad7f3015 Jelly: Update to SDK 35
+format=ef8f4e6b520883971c4991220f262c8e08817302 Jelly: Update AGP to 8.7.2
+format=b5e4cbbd10648de87495f35a2c846622d4045d0a Jelly: Optimize and shrink resources
+format=d365e31c2f5d3d3074d3d6ce28d7ae636b6310e8 Automatic translation import
+format=7f10fb5069f0ac055d75aecfdb1343a7449cb4e8 Jelly: Replace deprecated .reuse/dep5 with REUSE.toml
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/LineageParts
+format=80fb24c6bd5cc888daf01e425f2b25ba391b0305 Automatic translation import
+format=b107a102c4935e47a3fa951f9620f03e596c20ba LineageParts: Get rid of custom list layout
+format=64065562560f7f2d2c7ff0914b4b63daee75ef5d LineageParts: Setup window insets for SettingsPreferenceFragment
+format=36c4d2dde25423506eaeffaf9fc3940bd79e920a LineageParts: Replace deprecated .reuse/dep5 with REUSE.toml
+format=2fe62656488fe9ba5733207f42af6cc246a3663f LineageParts: Switch to SPDX copyright headers
+format=6fd76a855c1012b0c8962f3cc05de311c5a73f16 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Messaging
+format=2663c4e772fd21da7f279b1f56b38231cdae3603 Automatic translation import
+format=c0b2a2cca1ab645faa1b9e17185ac58cdad88913 Remove README
+format=96ef363da829f3a76c503519fa47d41ee93b3a62 Messaging: Fix handling of default SMS app
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Profiles
+format=7edbf3aa9301f8af90508b4c5522574e84aff528 Remove values-lu
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Recorder
+format=824dc49e15854636316f3215e5d9d4fa28fe0eec Recorder: grant read permissions for apps requesting recordings
+format=09b87221fe27dc2e11b91484b81d4d32bf94457b Recorder: Use File instead of Path
+format=229da7c812c301096fcbcf4cb884c7a14935d06f Recorder: Always track amplitude
+format=32a6b1cfbfca54401529ff25c00b63653fca7478 Recorder: Redo high quality recorder
+format=2a69a8b2a65e16b88a92368d62d21b8840543f28 Recorder: Don't make trackAmplitude/isRecording atomic
+format=cbeb8fc496c356381e4366ee9857954b2ac08847 Recorder: Release the AudioRecord properly
+format=7bba6821e6e1f23fcab8a4cafd243e333ef5e613 Recorder: Use default audio source in GoodQualityRecorder
+format=1ab74447802ad44bb8e5c12c836ddefb6af39b48 Recorder: Use AOSP material
+format=6cf972f84f7f05b9cde8fc9dbd50ee23c1e0f0c7 Recorder: Update to SDK 35
+format=0fe0b82e1498e12ba042d1264cfb6ed46a2b8bb7 Recorder: Update AGP to 8.7.2
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Seedvault
+format=5b91e78213b4fb64fee961506f801668ecfbcb07 Merge tag '15-5.0' of https://github.com/seedvault-app/seedvault into HEAD
+format=f5c2f0bd3a3b13e38595f7856865cd5ca84dc625 Release version 15-5.0
+format=45e7d23bbe8176b423f382f9e76e07f3a8720e4a Merge pull request #777 from grote/readme-update
+format=001c5f1a17ac01dc6c07416699d446e4d506a604 Update About with NGI0 Entrust Fund
+format=7158a9b070bf10b978ddcbb262097f944ccd1f30 Update README
+format=a4ff8946ddf009c011bf3c3f2d6acfc835feb829 Merge pull request #775 from theimpulson/deprecation
+format=f21e0f8d390f26f5307f4253c04f3d206105a159 UsbIntentReceiver: Specify parcel's type in method as well
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Settings
+format=86aae56098bb8938da68285ae50ef9c10d0a9770 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+format=400176ffa32f6c5b99dd1be7ee8c42b8fab34863 Add a mobile data toggle for setup
+format=4b5fe3fc3594e28977deeb8ced0eecc38c32fca7 Settings: support black theme for dark mode [2/4]
+format=3b116aaa9078749df6aef6bb51d2fc9adfb7a3f4 Automatic translation import
+format=1434c5118fe8164613a97bc48bb6a375f4ff5a63 Settings: Set correct categories for GMS top level activities
+format=cc197f403e4d794c028110bb5c0526c77ffdf440 Revert "[Sim UI enhancement] remove the "Tap to show info""
+format=a59710648dbfea8034510bc28a14da750bd6568e Make battery cycle count configurable and disable it by default
+format=ff000afcad99b6534cc0fa5e4d6e987769962df9 Hide unavailable battery info
+format=7d6af248bfc81f5ca0e65ba20ea6c4a58ac96e39 Settings: deviceinfo: Extend Battery info page
+format=32537c0cfbbae9ef185d8bd313d251df3116c808 Make battery info configurable and enable it by default
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/SetupWizard
+format=6a8260b7c3189e24257e8e24cf2cb7a66af9cb16 Remove values-lu
+format=875c71cac3e950cf371fbbc4d457c95ef2a510e6 Automatic translation import
+format=cae1abc267749cccd37f9be65f9a293aebac4c5c SetupWizard: Enable dynamic color in GMS SetupWizard
+format=da50cca4ceb1848c8509d41dd661ed827724a3f7 SetupWizard: Do not advertise Google Pay during setup
+format=139ed346e5d1239a2bc35c7ab066f23e9274cd7e SetupWizard: Replace deprecated .reuse/dep5 with REUSE.toml
+format=b7e8fd69f5f349064552427ad72ef9b5fa02c5b8 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/ThemePicker
+format=eae14033b66c4b7485d4df7793e2009d5ce7d9fb Automatic translation import
+format=9664d8aa8fa7b03c4a1143ea609f2ae264fd7e5c ThemePicker: Allow text scroll in options title
+format=a92d58ad6cc3e9768981e78f2e6cdc0d6aa7bf5c ThemePicker: Use the new material switch to match with settings
+format=28d78dc52cba7b14ef91851eda0502454be2a510 ThemePicker: Many UI / layout consistency fixes & improvements
+format=dc1263a5dba6318625b59139d4e410b2f9f8a39c ThemePicker: Apply window insets to fragments
+format=34f601c160903deafcac83bea3325e9dab564162 ThemePicker: Show our apps in icon previews
+format=316b3ffe7d5eaba150b71bec3e3f614bb03e910d ThemePicker: Vertically center the text of customization options
+format=2889bb40634257251c33df807ead001a0c844138 ThemePicker: Bring back fonts, icon pack, shape customization
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Trebuchet
+format=6d584f361f17b971992008192bef94245af6eeda Automatic translation import
+format=55d66a2021d24726786f1559bb3dddade3aafc94 fixup! Properly expose GridOptionsProvider
+format=66bf46d3bd49866f9027d3092fa0d85554709e49 fixup! Fix All Apps header protection and spacing again
+format=cff78378e2cf2c894b007e1e3df44d8d6f088665 Trebuchet: Let's keep 2-button nav alive for a little longer
+format=fde90ebea8c606eecb477ba98f8642294e10e5f9 Trebuchet: Fix Taskbar{Model,View}CallbacksFactory instantiation
+format=eea26b7a15c029ff7f70ee017daf05c836427463 RecentsView: Unconditionally hide split option for Go-enabled targets
+format=17c63451a5376e209b2ec16422a707f5c7a9923b SettingsActivity: Hide home screen rotation pref if not supported
+format=eefe87f824e4d378c7fbdd487aa15ca655e47aa3 Hide scrollbar when searching All Apps
+format=0bbe5660ec49f86ce93e094199778332f6bf354a Launcher3: Ability to toggle themed icons for all apps
+format=dc333504d67b1f1ede6030c4451ced78ad4deba8 Trebuchet: Fix sorting in zh-Hans-CN
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/apps/Updater
+format=a72dadf7e355c08777184f2827004a98b1fb696d Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/inputmethods/LatinIME
+format=23c32418f2337e9c6878feb77f962a6ee02e722c Automatic translation import
+format=18c61e060ca0534fe5a3fec4ac33281675f400df LatinIME: Remove Android.mk usage
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/modules/Bluetooth
+format=077e740c03f5b1dd2d1a7f22a0cc71afac23c511 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/modules/Connectivity
+format=00c8ef7431d926d54be347b5db0db5b6bd1b4b46 BpfHandler: Add kver checks around V BPF attach program checks
+format=3b4ae19746770bf096bbbeae3dcf1f3337690d23 netd: Require 4.19+ for connect/recvmsg/sendmsg cgroup hooks
+format=70369e0a82537b02e42db7a521aa9d9170917a5e Firewall: More apps/uids again
+format=f014a72b601c440cbb984dae9b04ea054e1da7fb netd: Remove <4.14 kernel restrictions
+format=293e6bb267800b4367833d1041bec508598ca04c netbpfload: Support <4.14 kernels
+format=383439c350a09358cfd6cf3982f9a45a79e8b4ab netbpfload: Relax kernel version requirement
+format=4076dc5ad5c0c5d4a58477010fbaf52d61df5c90 TrafficStats: Stop the spam
+format=49dd361c1203335ee6e896cfdd35bfb2ca902b40 Always register network policy callback
+format=00e4c0b4f01fbdb3dffcdfe4ac52018e49bf8488 Always drop non-VPN ingress in lockdown mode
+format=a82ed97f5240c8c80a7ca2044242d6b8c19fe6d1 Use BPF to block socket creation when restricted
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/modules/NetworkStack
+format=a3455c54feba933fe26717b922707925fadd40f1 Merge tag 'android-15.0.0_r2' into staging/lineage-22.0_merge-android-15.0.0_r2
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/modules/Wifi
+format=1e0094e8211ed757d4ab5bfa81fd25930c45f14a Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/modules/adb
+format=163d0f0bd1672c44c70d50a41430bfab76853a88 Add ADB root service changes
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/overlays/Lineage
+format=789826aae4772dfac3f7a1e6a6743408d079daea BlackTheme: Rework shades of system container
+format=cb088d5b4af5398a8efd919ef66a5b65a22711ce BlackTheme: Affect more background colors
+format=364c55dc593187a8308419275214c7146b3d81a0 overlays: Convert to Android.bp
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/providers/DownloadProvider
+format=3b899e247d000e5a27676a0b87087523029e2be3 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/providers/MediaProvider
+format=3bb894798c769cb5fc31b3550dbf9bb76505fd6b Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/providers/TelephonyProvider
+format=a4c4a085819094cb9e74c67f3608cbf0574eb358 Merge tag 'android-15.0.0_r2' into staging/lineage-22.0_merge-android-15.0.0_r2
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/resources/devicesettings
+format=da6e556777602b37e326a5dc62e86f4a7ad7e0c7 Remove values-lu
+format=1073036b18c5307635d0a780e1f933e20de3915e Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/services/Mms
+format=9ef3eacca948c25baabdd417e936f38493699444 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * packages/services/Telephony
+format=b0d6bdcf831c56d58aa3ecd271b4235a12df1172 Merge tag 'android-15.0.0_r2' into staging/lineage-22.0_merge-android-15.0.0_r2
+
+
+====================
+    11-11-2024
+====================
+
+   * prebuilts/extract-tools
+format=fac6a80c7481954dd72d1cc9a7584cf6ed2209c6 linux-x86: Import patchelf 0.18
+
+
+====================
+    11-11-2024
+====================
+
+   * system/core
+format=3f2d09e4b0850b9c47829d3caa6b9006e9862844 Merge tag 'android-15.0.0_r5' into staging/lineage-22.0_merge-android-15.0.0_r5
+
+
+====================
+    11-11-2024
+====================
+
+   * system/netd
+format=e11032724f3df2e965b0c3f0cac320eb927e944d VPN-covered DNS traffic may not fall through
+
+
+====================
+    11-11-2024
+====================
+
+   * system/sepolicy
+format=ff88cafb1132f00873ecac3eeac9d46ebcdcf03a Resolve neverallow in retrofit devices
+format=de94936f74f7620a6b4b4ae7926c413c1f2019fc Add property to disable APCF extended features
+format=6bff0893b06bf08e00920e950a8f5aff1d543200 Label ro.audio.usb.period_us
+format=2b04325afcf11e1dd99d287f063c4bb9bfbe2373 Add tests for merged {hw,}service_context files
+format=adc5019efd945b186f47f620b1d5736849b581b3 sepolicy: allow fastbootd to operate devpts
+format=dbe5a290e9559d890908784e85019b97125f1c31 sepolicy: Allow fsck_untrusted to be sys_admin
+format=40cd4e19b789719576fa57b6133d0bf6778dd2f3 private: Exempt system_app from adbd_config_prop neverallow
+format=cb5fcd0ea724eceb38e35df7c2d5248e2435c5c0 sepolicy: Fix sdcardd rules
+format=ded16491b6dd588d8317b00577429d944f3e5fd3 Give mediaprovider_app mlstrustedsubject
+format=73db85c520a7ec00c4bbe91f5a40f31bbdf34f1d sepolicy: Add sdcard_posix_contextmount_type attribute
+
+
+====================
+    11-11-2024
+====================
+
+   * system/update_engine
+format=f74f9c8cfd9bdea8b4f3b8fbdf787dcaf65e8320 update_engine: Add static ota_extractor target
+format=e35c195169bb0e6b3e4ee8289c6312fae6007fbd update_engine: Do not attempt to run backuptool in recovery
+format=72dc76b5b0ad38f68ca2ba677a15aaa952e9fc8a update_engine: Remove any (stale) read-only flag before r/w mount of system
+format=2b50813dfda68325d8aec33c00346de9195bff0e Don't verify payload signatures in recovery
+format=3f4f9d57f239f899ff4c5b15b0e8544c8d365d0b update_engine: Run backuptool only in debuggable builds
+format=dc456c440cf042a54fc71488fed730e4bf0b43f5 update_engine: Transition to backuptool domain
+format=6fd69147f4c07240e1647596104117eacc73839e update_engine: Run backuptool script before normal postinstall script
+format=aaad68fe7a3a6a7b17225348322a50150b8a9e97 update_engine: Add performance mode
+
+
+====================
+    11-11-2024
+====================
+
+   * tools/extract-utils
+format=34010ec70ffe9bf82cd6738d92c73100f29bd378 extract_utils: allow `call()` to accept arbitrary arguments
+format=58fc4528ce656e39beb807e13936bde53c254847 extract_utils: declare llvm-objdump path in tools
+format=2f9fa380290e1b143b95d16b2d1e6852fc0b1fd3 extract_utils: kargs -> kwargs
+format=5bc16f0bffadc9bc866b7dc999b2a6523780932c extract_utils: solve mypy issues
+format=2e5bd84dcb8a6ea31708725efa4906d3f3764468 extract_utils: showcase blob fixup for multiple files
+format=335a0af0db36ec4dda23bcc369f9005e2dc0d2e5 extract_utils: add script for converting to python dump structure
+format=a534bbbd3afd86ac385c42cefe5fe56a3d266fda extract_utils: simplify partition chunks sorting algorithm
+format=5a39801173fe0f45a696e5a05cb6cb2c5d673352 extract_utils: allow generation of apns along carrier settings
+format=7ad9e204ccbcb2579d997ed65d165bd8b943bb51 extract_utils: pass ctx to write_product_copy_files
+format=1e01d0f59286ff454c1fd95dc7df3cb7e9faa637 extract_utils: add root-relative vendor sub-dir path to ProductPackagesCtx
+
+
+====================
+    11-11-2024
+====================
+
+   * vendor/crowdin
+format=6675f302617cd0a3717e4a6cfb5b8428525c19a5 Automatic translation import
+format=d19d673ad83d72ba459262aa79fe25d4541f296b Remove no longer used translations
+format=c15f1550cc6734b38793067a05b61bfd2376d020 Automatic translation import
+format=055a7fa42834b5af322a2f4d9dc7ab4039e64a26 Automatic translation import
+
+
+====================
+    11-11-2024
+====================
+
+   * vendor/lineage
+format=0da17a7edd2dfaad85108230b9600672dcd2d54b lineage: config: Allow using an env var to enable insecure ADB
+format=2e33440b2a15a9da25bd91d4beab3eb085c621a6 release: Sync Pixel 9 SVN/kernel manually for Nov ASB
+format=eb804592dbfd7be43b4735bbb35806e42e7b4e21 release: Sync Pixel 6-8a SVN manually for Nov ASB
+format=2816697767f6916be61303ad8ef73b764613176e vars: November 2024 Security update
+format=413a493cc8503080c9e38fa82d877ac8ffb70831 config: Add text classifier files to allowed product artifacts
+format=f3cb134b6e599f1b747818b7fa2c4e7b5ed5bc39 Migrate to component-override for force enabled/disabled components
+format=e96bc80d77446b42a19d6ae8775734fbb0b45169 config: Build the textclassifier models
+format=0cb50ea0932cc6b595df49bb1d4bda150e1623cd Add `androidx.compose.compiler_compiler-hosted-plugin` define
+format=d6777fa812d257b276985889a33f2fb5d41a577b config: Changes for libfmjni bp conversion
+format=369fe67886e9d7636654eec39ba321696eab4402 common: Build AvatarPicker
+
+
+====================
+    11-11-2024
+====================
+
+   * vendor/qcom/opensource/commonsys-intf/bluetooth
+format=6a51aea770febad01c59a8d788ec96181a87cfc8 Add .gitupstream file
+
+
+====================
+    11-11-2024
+====================
+
+   * vendor/qcom/opensource/commonsys/fm
+format=41adf5466cb29f7c959ac153204f65ac9743640c FM: Add backward compatiblity support for oreo FM configs
+format=9300bb1fe71f85a9127691a33ad5a734cd896c7a Automatic translation import
+format=0b9ae4a8fd308ed44811b8bf84f68fc6e428a296 FM: Slight design adjustments
+format=9a927398430a7cf4f1b05693094aa08effcb11d7 FM: don't destroy notification channel on stop
+format=43c56a05159266017805c83258c77d0b3d43f66d FM: Bring in the new icon
+format=901b51bacdd6244cc2d00ee73211124d95e92df7 FM: Revamp notifications
+format=4c4f02577dde06d02caeae727d5105e819e6974b FM: Fix KHz->kHz
+format=67bd3b8efaacf3d01eac11939d8501f59603a051 FM: Convert regional band arrays to string references
+format=a6b439d5b9c3933427a66dd92e39ae359fac30e1 FM: Update India bands
+format=283246fc0b02efabadf8dc988c70b1a38fefcf18 FM: Fix headphone icon
+
+
+====================
+    11-11-2024
+====================
+
+   * vendor/qcom/opensource/libfmjni
+format=055b0bed7a5f8822fc7c4658fff44c886177cb9b libfmjni: Convert to Android.bp
+
+
+====================
+    11-11-2024
+====================
+
+   * vendor/qcom/opensource/usb
+format=f42f05dab47f3f7acf28d5a55c710a05c4ec2c78 Revert "usb: Fix USB HAL crash due to PortRole tag mismatch"
+format=9ec96105fea5678707fea996039d3aa9763baa32 usb: Fix USB HAL crash due to PortRole tag mismatch
+format=5866bfeaa232711cf20c5e7d2c96d3f4632cbc50 usb: Set permissions for common USB toggle paths
+
+
