@@ -1,5 +1,5 @@
 # jason_lineage
-Xiaomi Mi Note 3 (jason) Lineage 21 ROMS
+Xiaomi Mi Note 3 (jason) Lineage 22 ROMS
 
 Copyright (C) 2017 - The LineageOS Project
 
