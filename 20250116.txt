@@ -1,0 +1,1030 @@
+====================
+    16-01-2025
+====================
+
+   * android
+format=d2e99c48f1fe25768ab51433c75502c039f32686 manifest: January 2025 Security update
+format=4629f4e85ae0af9f310b02c9ef3d43aaadb96789 manifest: Sync Catapult
+format=ff76282823cabe0c4eeb19fa430cb3fb56064503 manifest: Stop tracking sm8450/sm8550 media HALs
+format=e37975ac3432f3dcc584a1f4306c679b20c308eb manifest: Stop tracking AOSP sdm845 bluetooth
+format=ebc2d5c8c6dfa6637faaaafa6101d79b14a4ab95 manifest: Stop tracking AOSP sdm845/sm8150 ipacfg-mgr HALs
+format=a6653688e47073bc308f26f85696f7a2bb129ed6 manifest: Stop tracking AOSP sdm845/sm8150/sm7250 media HALs
+format=821fba991899fdae07d0df76af212bc2a561f76b Fork device/generic/goldfish
+format=0f178dc830d78d4c88b355762aeeb62978a441b3 manifest: Track external/wpa_supplicant_8
+format=851baa624c66c8bd2658f76c063770a1c2a34d1d manifest: Track android15-release for vboot_reference
+format=5e78a32b7b71e6757ec75a8a36326f7571c96c71 manifest: Stop tracking coreboot
+
+
+====================
+    16-01-2025
+====================
+
+   * build/make
+format=f71ff99cc4d281959463cc3dc03bcce3268cb9d5 Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+format=0dcc651b368a17d709c523dd897181a689341909 Export TARGET_BOARD_PLATFORM to soong
+format=40145f38b3c78dceaf036f194bc924400de0eb78 Revert "Drop legacy vboot support."
+
+
+====================
+    16-01-2025
+====================
+
+   * build/release
+format=85c633e011b943c5d1d8e68ec2ef1c34f4f80bba Update aconfig flags for ap4a and trunk_staging to (ab/AP4A.250105.002).
+
+
+====================
+    16-01-2025
+====================
+
+   * build/soong
+format=8e5eae41d0a1060c2016cd8eaf8fad3788de390a Disable source map id usage in eng builds
+format=3dbe7196b10d382c5fa6d2f20f014cf0d76719a7 Allow selective R8 optimization for eng test_suites
+
+
+====================
+    16-01-2025
+====================
+
+   * device/generic/goldfish
+format=61bfda5bdc660a0355cf993c88723e0625987d79 goldfish: Enable DPad on TV
+format=3591cf9af1a11a0a3e3226dacc0b5934b95f2d07 Allow lineage_sdk_* to use `emu_img_zip`
+
+
+====================
+    16-01-2025
+====================
+
+   * device/google/atv
+format=2d96697213b7206ef90ad828c023547d5563dcf5 products: Make generic x86_64 TV target inherit 64bit_only
+
+
+====================
+    16-01-2025
+====================
+
+   * device/lineage/sepolicy
+format=7cb6f455bdc91b89b7e09b400036e96dfe8d4549 common: Label vendor.camera.remapid
+
+
+====================
+    16-01-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+format=0a1d9fc4337569828afeb53260b3832dc53af3c7 common: Label /sys/class/qcom-battery for everyone
+format=5a820b00b9f8648a0c8e416566261037e4e2fbaa sepolicy_vndr: Add sepolicy for cnss-daemon
+format=423b19556aa206b6aa8b4a999b2ea0a88c0755ec sepolicy_vndr: Label additional kona/msmnile wakeup nodes
+
+
+====================
+    16-01-2025
+====================
+
+   * device/qcom/sepolicy_vndr/sm8450
+format=2cf69bd9923db661320f38604fef19a34d033a42 common: Label /sys/class/qcom-battery for everyone
+
+
+====================
+    16-01-2025
+====================
+
+   * device/qcom/sepolicy_vndr/sm8550
+format=1ec5db7bc973378efe896d5e22ebacae8432acd5 common: Label /sys/class/qcom-battery for everyone
+
+
+====================
+    16-01-2025
+====================
+
+   * device/xiaomi/jason
+format=03773cf0394999c463f967a5fa4133d9eba74dfc jason:sepolicy: new logd sepolicy
+format=f28bf3a0b917010a5e4b348ff3fb50366545e544 jason:BoardConfig.mk: AB_OTA_UPDATER := false
+format=d05f651b2967b3c87323e32f0a7a7c4fa1a17875 jason:BoardConfig.mk: BUILD_BROKEN_DUP_RULES := true for soong fails
+format=31b79a663b877129e657fa133b449682fbe1716b jason:lineage_jason.mk: PRODUCT_BUILD_PROP_OVERRIDES removed
+format=ebf99a7cbd456909d970264ad7c8c20a8e0c377d jason:recovery: edify.h location changed
+format=8c99b85aafce9262f6ae9cf40bfb7cb9c10affcf Revert: qemu.hw.mainkeys=0
+format=d3b41c6daf44131c45909a4324ad48884c0a8159 jason: device.mk:  MindTheGapps included
+format=169ea7dc0e6f71b7356456418f45c7ca237301a3 jason: remove Keymaster 3.0 from manifest
+format=4168cca9c953353ecd88f136ece33958f54ad0ce jason: keymaster update
+format=55fa5ed34710f4f238d02ece292469c97326fb91 jason: Full screen gesture bug!
+
+
+====================
+    16-01-2025
+====================
+
+   * device/xiaomi/sdm660-common
+format=727ad192abafeb6a479f8f1476e166e078bc80da msm8998-common: Switch to QTI Memtrack AIDL HAL
+format=6b093db515d1f09a695ab73a6d26df9d0973b88b sdm845-common: Update display flags & packages
+
+
+====================
+    16-01-2025
+====================
+
+   * external/chromium-webview/patches
+format=b7fc13e532a8b76cf4a6c9f55f0a6224cf8301af Update Chromium Webview to 131.0.6778.200
+
+
+====================
+    16-01-2025
+====================
+
+   * external/chromium-webview/prebuilt/arm
+format=2b6b7b9466d779663a3325dd802ce0a7f0c7460c Update Chromium Webview arm prebuilt to 131.0.6778.200
+
+
+====================
+    16-01-2025
+====================
+
+   * external/chromium-webview/prebuilt/arm64
+format=ade1035d58268f5744541dfb1f0115ea7e07b2cb Update Chromium Webview arm64 prebuilt to 131.0.6778.200
+
+
+====================
+    16-01-2025
+====================
+
+   * external/chromium-webview/prebuilt/x86
+format=56aea9fabcc0f44700293f9d15913669f8906d47 Update Chromium Webview x86 prebuilt to 131.0.6778.200
+
+
+====================
+    16-01-2025
+====================
+
+   * external/chromium-webview/prebuilt/x86_64
+format=f690caf35341d319618ce515aea624543e9df746 Update Chromium Webview x86_64 prebuilt to 131.0.6778.200
+
+
+====================
+    16-01-2025
+====================
+
+   * external/gptfdisk
+format=c398cae861720079b481e8583018791a2dba212a gptfdisk: Make libgptf visible to Nvidia bootctrl
+
+
+====================
+    16-01-2025
+====================
+
+   * external/kotlinc
+format=4568e83d2a0fd2ea3055d2721a77521172e9bcc2 Add parcelize kotlin compiler plugin
+
+
+====================
+    16-01-2025
+====================
+
+   * external/wpa_supplicant_8
+format=e38a5231496007a62242ddb40157e99cf769386b wpa_supplicant: add support for bcmdhd SAE authentication offload
+
+
+====================
+    16-01-2025
+====================
+
+   * frameworks/av
+format=e8bbb3a853efccb417f7d6ba06db9a64a8a9be3f Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+
+
+====================
+    16-01-2025
+====================
+
+   * frameworks/base
+format=1e9e157c88694571f16f8448a9d3a09c8727e0dd Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+format=c116193d4ab9c2b9843de3f999ac2958653b7180 Revert "Remove Live Captions button from the Volume Dialog when the new Volmue Panel is enabled"
+format=d180fd724a7d55f8e16f0726081eec96dc2210b8 SystemUI: Update UdfpsTouchOverlay sensorRect on updating overlay params
+format=8f2b06fb6137e17d20a1e85749daccfe9e51d45c fixup! SystemUI: Fix constraints for keyguard slice view
+format=eef5777b29565eec0a4ef955da0c02eafe1c0adb Automatic translation import
+format=ce4a66e182091f4b10e1bc7304fab2251dab65dc fixup! Introduce high touch polling rate feature control
+format=ef033bb3a47eef8ed28a5d11e27511960bb25ab2 fixup! Add high touch sensitivity and hovering to InputService
+format=d130f2533978f5e67a679b22dfd0705fd5098bb9 SystemUI: Don't remove keyguard slice view
+format=be5657d8add7ce412ba4328d1582a844677810c4 SystemUI: Fix constraints for keyguard slice view
+format=593a1156577b89150f8706549c81c90c99a56717 fixup! Add an option to force pre-O apps to use full screen aspect ratio
+
+
+====================
+    16-01-2025
+====================
+
+   * frameworks/libs/systemui
+format=03cb15b5f1dde5bae2666a13ac6f64f7fc390d5d Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+
+
+====================
+    16-01-2025
+====================
+
+   * frameworks/native
+format=7578bd54147ae47da57590ab73a3bde0d9f8a305 Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/interfaces
+format=8d5bf376c657f0c5fd0b6bb65e38066e07d7152b Camera: Remap camera IDs by property if it is defined
+format=8526b6973dc011316915bf99ab6616f463c4b0e8 Camera: Maintain set of non-external cameras
+format=2a6684e39f5f88041973dded8281442cd56e9a13 Revert "Partial revert "Remove mapper from composer2.1 VTS""
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/lineage/compat
+format=e13c6294423e9598b76bc37139e6caa7e10d2b04 compat: expose android.hardware.sensors@1.0-convert as shared lib
+format=dca77d7c4b0c6fe34f3e3a61961da1f5d27d0d03 Import composer utils from hardware/interfaces
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/lineage/interfaces
+format=70fab33b6ae146714a3c4edd22f3ff0bd5c22a2b health: Don't use other nodes when a custom node is set
+format=0d92a9d1ee6e2dc05fed13caec72cc914d4b1f40 health: Force a default capability for the default nodes
+format=c0e0a19024fba4457a401a9529a677f96cde4880 power-libperfmgr: PowerHAL: fix deadlock while PowerHintSession calls to DoHint
+format=c196adf102e323fe28e5719e60d6380e421b1482 revert revert power-libperfmgr: PowerHAL: fix native crash when switching different profiles in a binder call
+format=3b415eea50a7806e01d92609ed97ed0ddf8dd9db Revert "power-libperfmgr: PowerHAL: fix native crash when switching different profiles in a binder call"
+format=9d1440a7fbe96594f4b64db7182a528939ba1bc7 power-libperfmgr: Powerhal: fix the spamming debug log.
+format=eb33fb34a87ed20f8f81ca5ac47ca86b676948f3 power-libperfmgr: PowerHAL: fix native crash when switching different profiles in a binder call
+format=1ca9b79aa8068e72517f22db8b27228c92afe919 power-libperfmgr: PowerHAL: PowerHintSession to get profile by its tag
+format=4134bd129463a2051100c6462f516e03f6348576 power-libperfmgr: HintManager: Handle ADPF tag profile with EventNode
+format=a7a39c59304a7f48d533a23e978bc5ceb3d237e0 power-libperfmgr: PowerHAL: add session tag in dump log
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/common
+format=b8c45478e89cd6061d201965e4d27b6fd4690799 common: Add vendor.qti.hardware.radio.qcriNvOpt to FCM
+format=1b1901b2bb79c3805e7b9d284a7ba98a3d8705bd common: Introduce QtiTelephonyCompat
+format=5807122ae3cd615f036da388bdc3835e7600a4b1 common: Extend list of prebuilt interfaces
+format=c89b361cdc9f20e84cfc40de33817562744a8c7b qcom: Set soong configs required by sdm845 libgrallocutils
+format=dbae08f45e2f701bf3b0cc2ecf16e3d7eeaf99fc qcom: Enable gralloc4 on 4.14/4.19 families
+format=4cfb8590f693699c8d3bded97b17bfa527e926ce qcom: Only set TARGET_USES_COLOR_METADATA for UM 3.18 family
+format=2f5b3c28dc21e38c1dd1a27d7dfa24360e5e2775 qcom: Set wide_color soong config based on TARGET_HAS_WIDE_COLOR_DISPLAY value
+format=10e28ed713fd4d608af44a5f77e7079fee71f71c qcom: Set display shift soong configs
+format=e8c6a3918cfc70cf15fb8dd269635adcad8905aa qcom: Set udfps soong config based on TARGET_USES_FOD_ZPOS value
+format=3362b5bcda8ad4216d5e8a6b327fc9099e6e0d49 libqti-perfd-client: Remove undesired logging
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/msm8998/audio
+format=4bf5f596f54d09feb824107ee2217aec594b0993 audio: Remove disabled HW accelerated effects
+format=669591a334b50a2c8d5e8317a025d7854ff9ac53 audio: Remove disabled libhwdepcal
+format=ebdd145ed7d0c66329d6e0e4ac328794355e4cf2 audio: Remove unsupported QAHW
+format=37f170ac76cb5bf1788aaafedd0122e4223cf005 audio: Remove unused hdmi_in_test
+format=16c0e9a6cb1701701694d59a76ee94e057707686 audio: Remove deprecated audio daemon
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/msm8998/display
+format=dcede86f9cd0215da892a7cc37eb28f738c0868d Convert remaining Android.mk to blueprint
+format=13ddeefc6afddadbb80e8ba946cd03a54dd72def sdm: Convert hwcomposer.qcom to soong
+format=b1dd395f0fd6c261d50e057b4c9ce31f34306c11 Convert libsdmcore to blueprint
+format=c1592e4fe9d9dfbacea563b4c45071cf747dfa0f display: Remove deprecated lights.$(TARGET_BOARD_PLATFORM)
+format=c904f5a63d8a5166a7add673b679ddf93e1f6df3 display: Remove libmemtrack library
+format=a68e6ec4d0a1c1d74271bb7720203201a87cfec3 gralloc: Make MASTER_SIDE_CP as default Making MASTER_SIDE_CP as default
+format=471c539263c9f671086c8cf88be41e5f92cc760a Remove unused libcopybit sources
+format=e4c7808138b57a717d2b9e15d51adb37480d0df4 qdutils/hwc: Remove unused code surrounding fps calculations
+format=bb6b6751777aae0dfc33260705daf0c5e89b0095 sdm: Remove USE_GRALLOC1 conditionals
+format=ffb771682bcdbe0b4e40e29e8b5d02e646444b68 sdm: Remove use_hwc2 conditional
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sdm845/audio
+format=a2f05ff1ba6cc16c87dc99871ca4a655ebb18450 audio: Remove disabled HW accelerated effects
+format=e14c377a89a26ecc89c73edd8b0be781dde1dbeb audio: Remove disabled libhwdepcal
+format=7563314d7fbe0ab21e3ce9f16b8d0ba30ab6ec23 audio: Remove unsupported QAHW
+format=96e3baf26fe4413e5ad24caceff98c502481e2a7 audio: Remove unused hdmi_in_test
+format=f15cd4864f36d3673213d025387a0d3826df739d audio: Remove deprecated audio daemon
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sdm845/display
+format=6b5ab285ee2181eac5fe8c100763cf0c1016f4c1 Convert remaining Android.mk to blueprint
+format=008341e8d4e92d84a7a95cdf9f2d47b1f959ac28 sdm: Convert hwcomposer.qcom to soong
+format=cbde3d49c308187da2615a9e8a1273cbd996cdaa display: Remove deprecated lights.$(TARGET_BOARD_PLATFORM)
+format=4fe8105d205981d1b766ca7c26320a4f00c2ce89 display: Remove libmemtrack library
+format=3c741238f2ebe8df14f4fec6c3e50fe9fdd0b4cf gralloc: Make MASTER_SIDE_CP as default Making MASTER_SIDE_CP as default
+format=598df5b1ebfa8bd2b0366c56a39337005498e21a Remove unused libcopybit sources
+format=a150ed1334fc4cddc5d1e61af5b9b943907c3602 sdm: Remove use_hwc2 conditional
+format=50fc8cb9a4b44725f5732c99f9737c64c943c4be sdm: Remove display_config_version conditionals
+format=d2df111e1ea94ffd782a4a5ad8d73ff6d0d4d0fe Convert libsdmcore to blueprint
+format=1972b9ecd671d6b712eb2d00bef969db77754672 Convert libgrallocutils and gpu_tonemapper to blueprint
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8150/audio
+format=fdc8d176cbb23484671b10521d888b112adc80ea audio: Remove disabled HW accelerated effects
+format=5bf377a2aca530ae794ebd6439630a3d927f0c2b audio: Remove disabled libhwdepcal
+format=657571d507bee9759293e57661b6cbd3b91a6e3b audio: Remove unsupported QAHW
+format=533d5aefc53a19fb432ebae04beb53978254f87d audio: Remove unused hdmi_in_test
+format=5cf8cad416eb0de260979d490a8ddc26d5f109d5 audio: Remove deprecated audio daemon
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8150/display
+format=da26b468f3a73eabef5f5a80e152e336cbea1805 display: Bring back gralloc.qcom
+format=a894fa1f17c4d6ec205fb952edce1673d49d1c68 Convert remaining Android.mk to blueprint
+format=7e5cde8c7b41a46cf307c5ffc0a1c5c5d4e430b4 sdm: Convert hwcomposer.qcom to soong
+format=090df80365b3e5680f4e99fe2983a71f9ae12cbd Revert "sdm/hwc: add display indices property for client id init"
+format=d4eb32d371e9401a7b78a350bcff4b7204d17382 sdm: Remove use_hwc2 conditional
+format=82733f3cddd64b38925767f90c971bf26a2f8a02 Convert libsdmcore to blueprint
+format=c9fa6c3f4abc88a0c4f080521c55c1655bfffa6c display: Squashed revert of hypervisor changes
+format=06b6e3a25df1888ed25786a8fa464578e372884b Convert gpu_tonemapper to blueprint
+format=bc0d05e865a382c6dd2283743abd865cf7cd8fe1 display: Remove deprecated lights.$(TARGET_BOARD_PLATFORM)
+format=e362df59f369128f06d479fdd731fef686bd618c Remove unused libcopybit sources
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8250/audio
+format=5e6764540b99aef49dc518a856627f426039cb0a audio: Remove disabled HW accelerated effects
+format=50d27e9069c578043e05064e322646486ecb6186 audio: Remove disabled libhwdepcal
+format=6141564136a07c1d25d902827362acf4ddb8edc2 audio: Remove unsupported QAHW
+format=15ee8739d351afaa693e5382a7d0f1e10fc61cf9 audio: Remove unused hdmi_in_test
+format=d1cc61abddcd552a05aae1007ec102283f1e1f56 audio: Remove deprecated audio daemon
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8250/display
+format=34cd44131804370d44118578d4904d3637de4620 display: Bring back gralloc.qcom
+format=d17dc82eabbb8ec9c2552fd79d3ceadd9db08382 Revert "composer: add support for display bandwidth limits management"
+format=7e19d3921081d3173b92a1d6fcb5c600411b717f display: Switch to soong
+format=a908076e046518a469e36e3e2af6ab2eb0802f50 display: Remove deprecated lights.$(TARGET_BOARD_PLATFORM)
+format=f3e3cf82195513175a6951d223e6cef77d3b10db Remove unused libcopybit sources
+format=8c96f1a52f8123ca630cca6e33d80d45c3f8e4cf display: Drop non existent hwcomposer.$(TARGET_BOARD_PLATFORM)
+format=19dad5b9a583cfb4379db97337bf4b02d685bee2 display: Disable gralloc module
+format=d4c94ef160955aac1fffb67d78e9b1cbc613cca8 display: Remove libmemtrack library
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8350/audio
+format=f52ceb13e17c7dce15c6e584d8c4eccb3c1c4ca4 audio: Remove disabled HW accelerated effects
+format=bd1e5ef54ddcbc4af72ba2e9158104088cd59335 audio: Remove disabled libhwdepcal
+format=3c95901c55f6c2415510fc7a945b4c6f4500c66d audio: Remove unsupported QAHW
+format=2cd60c07323bdc19be6be94596af364204ec5d06 audio: Remove unused hdmi_in_test
+format=1b849f14f67db08983f731d79fa8c06d4a404f8e audio: Remove deprecated audio daemon
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8350/display
+format=1b7edb3343a00497124f1fc61381e44aad70d610 Revert "display: Add QMCS image generation"
+format=7f0b57ca60de7c810b862c9c360b163f5c6fa9b6 libcopybit: C2D deprecation and cleanup
+format=95af29b7d15c022ab66cffdcbe921a6987430a82 display: Remove soong subdirs list
+format=8f2543a4da78c66efcfd163f3715a96f02e5a5f2 display: Disable gralloc module
+format=3d2ccfcc97aafc63d2c9f479c66e7a162318201b display: Remove deprecated lights.$(TARGET_BOARD_PLATFORM)
+format=822d777fb97e835a7d66ec4c7149a1bc3fc68e5b Remove unused libcopybit sources
+format=87cedbf9e20a369f12bce9ac46c81796f53edafc display: Drop non existent hwcomposer.$(TARGET_BOARD_PLATFORM)
+format=d6900a6b7274bfd96d0aa0fce759812f21a312e2 display: Remove libmemtrack library
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8450/audio/pal
+format=f3af214667071cd42394f05708633b0ae75eb819 Reapply "pal: validate stream handle in pal server wrapper"
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8450/display
+format=2272048d539c0df97fa90a8a799884d3488f1d0d Revert "display: Add QMCS image generation"
+format=87396a83e424445a7c0bfc2f7c7cd94f8930431f libcopybit: C2D deprecation and cleanup
+format=681d93ee51481fcfea2c2b796cb7f4bf1ad719b8 display: Remove soong subdirs list
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom-caf/sm8550/display
+format=d2feb3cfd5721b5192d5937a103f470ba914d0cc Revert "display: Add QMCS image generation"
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/audio
+format=e5ddeb997aec21ab73448128ee9daf4ed2ada3b9 audio: Remove unsupported platforms
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/camera
+format=b42f4654d4c59239fa0ac22c84001054f739fb78 msm8998: Import easel headers
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/display
+format=967638b5e4a01616af2b6ecb594b8301a3cd5641 display: Remove unsupported platforms
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/gps
+format=d5ff4d883dca12bd80804a721e5898378c950788 gps: Remove unsupported platforms
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/media
+format=c2ce39b5a6398f7100abc377ecccdddd93cdfad1 media: Remove unsupported platforms
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/sdm845/display
+format=ec1f12c8346a2513e880c87eb77ac92365cd8924 display: Remove libmemtrack library
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/sdm845/gps
+format=84f48694df6d1c5ddcb441d572d5b72146ff1123 Include Android.mk when building B4S4
+format=645c2f2ffc1909b73379ac3cef2297ed19eae1c2 Add os_pickup.bp to create namespace
+format=9e6a59f0b02f8ce73ca72e032732d9cfdd1b5a0c Add os_pickup.mk to control access to all sdm845 projects
+format=4f3246acc56f8b5804e89fd831e5ae93ed16ea1e gps: Convert remaining Android.mk to bp
+format=9e08be7255eccb3feddb21df89f2adf357590514 gps: Remove usage of std::shared_ptr<T>::unique()
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/sm7250/display
+format=5eb7ffaa9db3bf657e4a236173884a0647098e4e display: Remove libmemtrack library
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/sm7250/gps
+format=51da88dc94cd5726e2a02557f5f98727f2e62730 gps: Convert remaining Android.mk to bp
+format=64ab4f07ec1442ba5539c6ff00a7d8731f8ed012 gps: Remove unused implementations
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/sm8150/display
+format=c9893437dbea62e610b7e11f88d9307c7218678b display: Remove libmemtrack library
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/qcom/sm8150/gps
+format=035adb9cffaa36216b853dbf17462a1a2428cc53 Include Android.mk when building S5
+format=3bbbaa5b022ef5553c836d2b68fe6baa81c06b7d skip building when BUILD_WITHOUT_VENDOR = true
+format=1fa7d97349b6e88a705f58a1171def5101209742 Use PRODUCT_PLATFORM as filter variable
+format=6551c679182ed1445309fd0ad04049d7d7f31304 switch sm8150 to msmnile
+format=24e8813927588ac5dc22bad0bb3cc6fd9f2d59b5 More googleplex integration - namespaces
+format=8281dfe3d16474752738441e0de4eb2996b9e9e9 gps: Convert remaining Android.mk to bp
+format=403f99a74ead37a81c4bcdc8cf9cba63bb5cd3c3 gps: Remove unused implementations
+
+
+====================
+    16-01-2025
+====================
+
+   * hardware/xiaomi
+format=dc4e80cf899eea53fde64fac3cfb91300c58b164 xiaomi: Run bpfix
+
+
+====================
+    16-01-2025
+====================
+
+   * kernel/xiaomi/sdm660
+format=610e57636de8c0c35b008d423d21c61b57b6d4b0 arch: arm64: vdso32: Drop -no-integrated-as
+format=333a7a980ee6a4db6e0fbf763c5bede091546a2f ARM64: vdso32: Hardcode toolchain target
+format=42729336a5421c7299c5ea68b19007eef6f999a9 qcacld-3.0: Handle wpa_versions properly
+format=f252c0982fe75c7234bf345d9a1177419410026e nl80211: add WPA3 definition for SAE authentication
+format=032141ab5bcd4e395f34739081d0843c4c02235f dsp: q6voice: Switch to __builtin_add_overflow
+format=adea60f16b5948abd472dab5795263c505aec524 Merge tag 'LA.UM.8.4.c25-11300-8x98.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.4 into android13-4.4-msm8998
+format=afdfd612740965051edcb115a670e3970a79a503 kconfig/lxdialog: Make main() return 0
+format=1e43bb290b236b8611df64cbdafbe5ffa885ebb5 fs/open.c: allow opening only regular files during execve()
+format=0143c100fc3abb79894fe9348968f3cbf9fb165a splice: reinstate SIGPIPE/EPIPE handling
+format=36ea2a73784944aea9b8c8da0a156c3c9eea6ac0 defconfig:jason: Enable base TEE support
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage-sdk
+format=8709a3a505296bb588e4f2a21d5609762639f4df sdk: Optimize imports
+format=97ea132c03fecf16d9b21c2f57cd8a095d0df4ea sdk: FloatMath is deprecated
+format=423cec2b12605d97403cc89a8010963c55844fc6 sdk: A few finals don't hurt
+format=28185f0f542c8a4b3d07f8462303cf69759ac684 sdk: Call Handler()'s correct constructor
+format=87c969771bac1eda41a20c8e7be2b29ddb82499b sdk: Use BluetoothManager.getAdapter()
+format=5e5212c76b9e2a18c2578b05b08bbb351e8ba409 sdk: Try getting LineageHardwareService again before checking for it
+format=59c26430186f386d88f6cbd8d7b37ce9770aa23e LineageSettingsProvider: Migrate tethering_allow_vpn_upstreams to AOSP
+format=1963836822009f9abd6385625d677acb10dc898b Deprecate org.lineageos.platform.lineagesettings
+format=4e9ea61e3231b7a2b3bb0f763ebb2921c9cd0156 TrustInterfaceService: Allow BAL
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage/charter
+format=91320514b08c86fef1e62c3d7e03522c358bcc38 device-support-requirements: Address Play Integrity instead of SafetyNet
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage/crowdin
+format=b79d1a97542fecb7317a2405ce78c4ba0368e1b6 config: Add hardware/sony/XperiaParts
+format=09a17a64f295f3cb6372ba669d3b7df7a8ed42a3 config: Add Catapult
+format=e5959013edea83103b98edb8b41726cdacf8c190 config: 22.0 -> 22.1
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage/hudson
+format=d7db78e0b6afda5674e6b6667b466d12f690bb91 hudson: Promote xiaomi sdm710 family to 22.1
+format=ca7d4697478f4c834f37ab05b5c3b6c55ae7e800 Regenerate device dependency mappings
+format=89fe12488b928f5fa274d4a1dfbf3759d5c3afd7 ahh, 21 stuck processes
+format=5ef3fbc60dbd9180a194c07919d2064233b7667a I Am Spider-Man
+format=89e17bae9d1e0411cabccbb2e5a3d03c988e10b4 Regenerate device dependency mappings
+format=665b68614f9171d8bb87e60867d4f1cbbddd44fb hudson: Promote kiev to 22
+format=10dd29fc4955a5828976e84d23fddea7c25a7e61 hudson: Promote gauguin to 22.1
+format=945c61d3e57b9e225e66cdf60161c6c2c1241bf2 Moar DevKitZ
+format=5698cf01ba852b5d6ab9bb451b165f470661f615 I know that I know nothing
+format=21e6f1390c170ddb25101cdff24cf4fa8b7c0018 Regenerate device dependency mappings
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage/mirror
+format=6d41ddf67bbb70993ce714807e8d17c53ce58c2f Updated lineage-minimal to 12-Jan-2025 13:01 UTC
+format=f69ae617bfe5e6d5886e4fff266d4609cbcec389 Updated aosp-minimal to 11-Jan-2025 13:01 UTC
+format=b8bd2cc93cc514717525100b840cc04a54b3b2b8 Updated to 10-Jan-2025 13:02 UTC
+format=a0e265908f03bdaf4add21cd103e722b9223d523 Updated to 03-Jan-2025 13:01 UTC
+format=be38e8990f0a7ea0435b7207a1b72e191147b352 mirror: Allow python3 from anywhere in PATH
+format=254ee085e46ff45cbd6d102cee51c51f502b536f Updated to 24-Dec-2024 13:01 UTC
+format=8bf1a9c2e29dde81eeafcdd8a2424f11e6541b7b Updated to 21-Dec-2024 13:01 UTC
+format=1984a1c0772040e827df04002d01bfb9691f8693 Updated lineage-minimal to 20-Dec-2024 13:02 UTC
+format=3af20da850272aecdcfa9f87b2c5c7c80ecf1149 Updated to 20-Dec-2024 13:01 UTC
+format=cd0fa78cc8f8c0bf5bc5192372d45aa3a71ebad6 Updated aosp-minimal to 19-Dec-2024 13:02 UTC
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage/scripts
+format=2262a3b644b3b264e7cd6ab3ac048653e28d690e update-device-vars: add support for new security patch location
+format=9022f60e26019d9f51e0683ed3f339e8644b8295 update-device-vars: optimize
+format=8817e8f75709d9720e767dd10ec2c2c01a98b21b device-deps-regenerator: Sort ignorelist alphabetically
+format=9c1f21c95563deceb77776fea8bf41a85e1d0137 device-deps-regenerator: Ignore caimito
+format=56506ed9c12dbf086cf81e196f0d05a828799554 device-deps-regenerator: Add lineage-22.1 branch
+format=6bdd316bc233b8568842e370398cfafcb5b09eb8 build-webview: Update default webview to 131.0.6778.200
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage/website
+format=cafc801fc02dc57311f382e5bff0a877a2009f20 fixup! www: Switch to webp
+format=be906c35b4d5c02b2b98eee8aa8bb729eec248c8 LineageOS 22.1: Hotfixes
+format=becae8523ba46f9fcfe4ea27708fb8a6a9d7bbb0 LineageOS 22.1
+format=110264c7527eea111295fa2c3d6add3c3ca3f476 www: Switched to archived cyngn link
+format=3dba66b8b8d3956b97707ef2cfd73090b326b2e0 Switch to webp
+format=3e27c207cec9203d8d47911d5250e6db322b0f22 www: Remove unwanted newline in HowTo-Debugging.md
+
+
+====================
+    16-01-2025
+====================
+
+   * lineage/wiki
+format=e89ba9b94192f53d385b3d942a2859ddd54aa849 devices: Add Galaxy A21s
+format=3d719afb0475d1c6cf6ad562351eb6374d4af06e wiki: Initial documentation on using py extract utils
+format=1ed7a7c29eb93d413e280f2ef867d26f055152dd wiki: Expand adding device info
+format=6fa1d39be3ea2a4a58fd12216dd2b1ff73a833e8 wiki: Add codename prefix to subheader on devices page
+format=cdd7feeefff3b62800f0746b1c858e05cca855cc wiki: Mention wiki in infra bugs section
+format=c1f9baf7292f64dc5f0a3e91ced0dcf7b5faa0de wiki: devices: Promote alioth to 22.1
+format=e3c6cf43ff023d2c8705e2f0d37019c4087fd3d6 wiki: Promote kiev to 22.1
+format=a7b164e3f70898f8ec6cfdeec888593502f76720 wiki: Promote gauguin to 22.1
+format=f2e0d6c85b8e0ef05372a99a7b9a4c4928f3d31b devices: radxa02: Correct release date
+format=782278985e8b51cc16a219a8a8eed3804ec831da devices: Add radxa02{,_tab}
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Aperture
+format=c58ec83dc95dffcd8da7edd6e2542df55df52f0d Aperture: Migrate generatebp to plugin declaration
+format=f1b269e0027e1fa40885d6ea7e9a8f3803400ff7 Aperture: Bump gradle-generatebp to 1.21
+format=63d0accc25b8bea71330754e7f0537d3a3a683de Aperture: Suppress warnings for extensions impl
+format=5b5de032e4e74c6f8e2aaba7911ae71474d77478 lens_launcher: Don't optimize
+format=e34ee13082d895d96e8e20b19288c8bbd3109fab Aperture: Remove unused expression
+format=2e066d2348c5e844166a93188351a7c3bbe27f3c Aperture: Switch to coil3
+format=6288db35cef73c377b8d83faf0b00c80037cb5ba Automatic translation import
+format=f58b1a4b140837310a9d91836f8fea61cf8fb884 Aperture: Bump gradle-generatebp to 1.17
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Backgrounds
+format=68f6e814c1b33dab93cf02ff95a44bf5a4f976ba Automatic translation import
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Camelot
+format=714eaed7cf18770f14c665b48851c8b3180a8e2a Camelot: Handle rotation
+format=e6a43005881c4cf3f0624857a63254b91994e3e2 Camelot: Update androidx.pdf to 1.0.0-alpha05
+format=0e4f30cd074dd816537fb548c47393e2c01aba61 Camelot: Migrate generatebp to plugin declaration
+format=c103f8107f892807ebe70cf9c4f34e6d51fc04e4 Camelot: Bump gradle-generatebp to 1.21
+format=5d6aff24fca2ac761d24fe01c907d23e9d5e6924 Automatic translation import
+format=4d3e9e0caa30b819ec69e7da76446969ba41b7af Camelot: Bump gradle-generatebp to 1.17
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Catapult
+format=f729c87fbb7bcc37c8a44f220bd1b12e0de9a486 Catapult: Fix launching non-leanback favorites app
+format=13f3be1ace01ad1f459fb3d852856996371b5dfc Catapult: Hide Watch next if empty
+format=4b0e10903412e66ef2f9261bf4e570a4317a6bee Catapult: Update kotlin to match AOSP version
+format=ff6c084ba63b6386c9709e380289a7fcd2515158 Catapult: Migrate generatebp to plugin declaration
+format=52647cf83758491a49ae766e1c04a63b548908e1 Catapult: Update assistant button visual
+format=148813470774f707423f9e8b84806c4e3919cd63 Catapult: Rename favorite related classes
+format=616abfe9b3c0e1abe23a40eb113ea147739b13e0 Catapult: Create TwoLineButton class
+format=0f32bbdee1f4021b8e47eb96a7407ae83468b116 Catapult: Visualize long press selection
+format=49be4d7ce431f28350b0b05e599ffe1b9c7a09e7 Catapult: Update layout to spec
+format=ae259be1537437be7b08b2e0b85af9522a0bc8ea Catapult: Query all apps
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/DeskClock
+format=a2df29922476e55b9c21aeb1f0cafc147ab5cbc5 Automatic translation import
+format=a9562048e44de308aac6cf79511571e02648ef25 Make java_sdk_library dependencies explicit
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Dialer
+format=36d512e36f57461b12df685cb352c4aca647c85c Automatic translation import
+format=7aa50e2236b1ab6112e5a53de11634e86cff7ad6 Merge tag 'android-15.0.0_r6' into staging/lineage-22.0_merge-android-15.0.0_r6
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Etar
+format=63f4cd6dc68c59c9939a27a6daf894dd0aae3a05 Automatic translation import
+format=2c578c640f22b8d3a722dc18fe1e145d7c2fd3fb Etar: Include as a preinstalled package in Private Space
+format=275a5d5d383f5a5de0ad898a8f17cf92443cee2a Make java_sdk_library dependencies explicit
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/ExactCalculator
+format=1a8f18bcb1b3a02558da3d7a72878c8bdd308b29 ExactCalculator: Migrate generatebp to plugin declaration
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/FlipFlap
+format=7c64363e8af48dca81547456fd9fe2a6832f904b Automatic translation import
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Glimpse
+format=24ea58d644a9bd25161189573d64280cc3d64113 Glimpse: Migrate generatebp to plugin declaration
+format=b9001bd773d9d78d9fcb70e79888818fa80c838a Glimpse: Bump gradle-generatebp to 1.21
+format=b487397bfa6ef984fc87ca82d7910aabfa33c151 Glimpse: Center crop thumbnails
+format=58b55cb26c8aaee682202eeca6c8ebd284c1f0f5 Glimpse: Force thumbnail image size to MAX_THUMBNAIL_SIZE
+format=37f3b6838c00559f2c23333a4358237c2f31bf0d Glimpse: Handle not found and empty albums again
+format=47970544e976ca784e1378139197c7cb41da4ddb Glimpse: ViewActivity: Set the adapter data and position at the same time
+format=86fff52a56b9d53d88f04f13a499b7b00bfa4852 Glimpse: Reformat code
+format=85fd50021b821e0ddf2fadd013d8ed44b1cf2062 Glimpse: Coil -> Glide
+format=4ce3f4863dc4dfcf91bebcd4dcf1d97616ee68a1 Glimpse: Bump gradle-generatebp to 1.19
+format=a316375d64995dc5c4b1ed76d2c60cd0e9c4993c Glimpse: Default null bucket display name to Build.MODEL
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Jelly
+format=edd96127a939c87b3f41ff99935b813f14cadd8c Jelly: Wrap homepage EditText in TextInputLayout
+format=0e1a72b443762b4ba6cf294a18ccfca436bd826d Jelly: Load manifest icon instead of favicon
+format=e12cd59b373a8540fd1edd2ae7f7a317042e3691 Jelly: Remove stale com.android.library plugin
+format=5e3a5945bf52c1652baa7b9833bb465fc3406d0b Jelly: Migrate generatebp to plugin declaration
+format=01168fdeab4b0ac2c457683f322fb471bcfd10b9 Jelly: Properly name onCreate argument
+format=017b0b56b10d77ea010e2f82426f731c04461592 Jelly: s/DEPRECATION/Deprecation
+format=d65a76ebad971a6301f44a9a946086e1cb96e4aa Jelly: MainActivity: add Suppress DEPRECATION for TaskDescription
+format=c829ddda756e240dc1e10614c16a9a74e9689954 Jelly: WebClient: remove Suppress DEPRECATION
+format=4cc1225ab42251237a110f152075f74f0f12c5ed Jelly: WebViewExt: remove shouldAllowDownload
+format=985cc204c7cf4be47b9d730255eaaff84ad4c05d Jelly: remove unused parts
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/LineageParts
+format=941f8ee73410472a041233417ab9d3a8e7fe90e8 Automatic translation import
+format=ba15fb4ccc0cf6157349330e391fbf3a33d699d2 Regenerate contributors cloud (2024-12-22)
+format=0dfe810027facbb7c8906bfdf6e3c5ce45a09574 LineageParts: Import ObservablePreferenceFragment from Settings
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Messaging
+format=278c7e93afcd94b2e632310dd52cb84530345ecc Messaging: Hide new chat button when forwarding messages
+format=66d57e98a3e4b5dd699faffb4e7e53d92969402a Messaging: Handle geo uri scheme
+format=7f639e3652c9a1a87f82cb3d5b65591e536fc071 Messaging: Use MaterialComponents everywhere instead of AppCompat
+format=b50c51d38faac1d96f8961cc66f06adb1fb8d222 Messaging: Remove forgotten MmsVideoRecorder
+format=6cdd458b696124e2d060d77f567d09df83bc7569 Messaging: Tint recipient field properly
+format=8ae38097b07b4571fb2e800d9463ff9a0be03bf4 Messaging: Style ViewPagerTabStrip's underline properly
+format=edb268697cb08fc32cd2cf572f13fafff45a55f8 Messaging: Get rid of storage permissions
+format=161c3e9fd9201e6a674e864bf71bcf56e3b5b2f0 Messaging: Remove VisibleForTesting
+format=bbf90339d2ee0b6c05fa8fc08dcd2180fff57171 Messaging: Style the subject line properly
+format=e11745afd4bb050efb116e6eb0a1425022c84876 Messaging: Style the attachment choosers properly
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Recorder
+format=044291d89cec6e4d9373b4cef910989bcf2a28b6 Recorder: Remove deprecated constuctor
+format=b48a428190beb4024c27db342f879ce6cdb02e50 Recorder: Remove deprecated onBackPressed override
+format=edb428a24c2ece41d237dbf5dfff67c482493bb0 Recorder: Remove transition override
+format=0d41c480661cfd982600f13e4ed9ba5c60573e8b Recorder: Remove unused check
+format=0ab4aa93f84d1398301f94b893bfc776b4e98df3 Recorder: Use correct arg names in overrides
+format=bf5103e6af00df58fc0201ab0da79baf4e0a572e Recorder: Migrate generatebp to plugin declaration
+format=bc7d6099dd16d830fc09a7f4e41ec69e746b814c Recorder: Bump gradle-generatebp to 1.17
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Seedvault
+format=7e08b7c39834d0b9b4aaa1663dc63cde2cd67c30 Merge tag '15-5.2' of https://github.com/seedvault-app/seedvault into HEAD
+format=8e819ff7766ed43008e76aeb8ef0b995ba28d367 Bump version to 15-5.2
+format=156ffbd8bc7d8e9f35472454fb00cb6c0a167aee Merge pull request #819 from grote/check-files-backup
+format=9474a8f093dd14038a3e4951b903ec7a6e0d4704 Update state tracking to also include file backup check
+format=01067198ab207101b29d5839fa9075638fb9ce34 Allow changing backup location when flash drive isn't plugged in
+format=41f47620e4044be6b3e5eed58f3c237e4c9e7cf6 Tweak file backup strings as requested
+format=be77ec1a2761f8b3dfd8b5c7f88a546473c7a0de Don't allow running file backup and check at the same time
+format=3892e24d7049b6dc53d3abe747ea838adb38834d Show which files are affected by corrupted in files overview view
+format=5c9bc7838c6d54bf277dec8af9a6437134b30fb0 Move background color into core module
+format=86ad48f065cc22728bc3f889ae775a8f70c0e22e Improve files backup snapshot UI
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Settings
+format=fa7e6f0919397010cb064d4f9e8abc0b71e0aca9 BatteryTip: Hide Learn more button if URL is empty
+format=6c6a2b1f38b491457107af73b26c629be3ade3ee Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+format=534a7571f2bd4c87183574daa0bf2012e55002d8 Automatic translation import
+format=dc1856d7b1087985d8370eaf0157791ab11030d5 Revert "Settings: Use display version for, well, displayed version"
+format=0e4260f625380128a0cc2247da56fbec13f2bbb1 Settings: Migrate VPN upstreams to AOSP settings
+format=9212bba66d7cd996f3054bac91543c08f49cc2c8 Fix the NPE in the tryToFetchUsageData() method
+format=1e271bc83891304d56f2325532b6974a471239b4 Merge tag 'android-15.0.0_r6' into staging/lineage-22.0_merge-android-15.0.0_r6
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Trebuchet
+format=5138028e4c94d3334feae51dffeb95d2136c6155 fixup! Cleanup widgetsModel and add tests
+format=8498dd6d2a461f8231d21718a199e4f05b3a50b3 Launcher3: Address taskbar crash on fold devices
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Twelve
+format=033a0e5817dbab7ec9b6231e0db9b5d9fec775ff Twelve: Quick reformat
+format=b60de79e71840799bcd630a687db3e70a63b5c80 Twelve: Don't typealias with {Int,Float}Range
+format=a28dc05e86ef52e2f949d8440d8b250a1a57527c Twelve: Lint fixes
+format=259d507a2a58d2f6ea7b3dc3be40944bb5ab7538 Twelve: Remove unused resources
+format=a8f13873057118fbaf510976773a9b80c870dbbb Twelve: Use localized output mode name strings
+format=10f202130ea8988013945acfdcf23175a2d2ea2d Twelve: Remove margin between provider and settings
+format=a225eddfd42212a38dd8c52e2d9bf179c3d0ddd8 Twelve: PlaybackControlBottomSheetDialogFragment: Fix switch listener
+format=1101ae00c2eb93ed3450942eed656673e5f0e08f Twelve: Propagate more errors in Api.kt
+format=f0130e3bcaf5f6f349ce0f72c9ef458a3bd353d5 Twelve: Add 32-bit floating output toggle
+format=972784c6737ee0e86084f777ddc073598ab21cd6 Twelve: Listen to exoplayer updates using coroutines
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/apps/Updater
+format=b551ebc472a4aef9bf02bccec4c6911854e0808a Updater: Migrate away from deprecated ProgressDialog
+format=d8e73e380ceac3b3c3e161711911fcf21c3ea3c6 Automatic translation import
+format=a2e31f1f2da4a201a573508a11eca834bba06df3 Revert "Updater: 20 and up are integers!"
+format=b31dd168066914b0127339a0ca7914e5fd4a8328 Revert "Updater: Handle NumberFormatException"
+format=a07c2fc48e5dac0bd1e1e09ee84856941684269f Updater: Allow 22.X to 22.X+N OTAs
+format=1d33cc3135085bff8401f42eb945dab4c1a0e5c5 Updater: push-update: unroot on exit if zip exists
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/modules/Bluetooth
+format=7af6aafbd8cbae6cac6b6b57ef7c6096db3b04ac Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/providers/DownloadProvider
+format=8f732edef15aa25b24de4c761ca28a3669f23acd Automatic translation import
+format=4cf01015c75b3f75a8dc164905a34b790497ef1d Merge tag 'android-15.0.0_r6' into staging/lineage-22.0_merge-android-15.0.0_r6
+
+
+====================
+    16-01-2025
+====================
+
+   * packages/services/Telephony
+format=4cf0ae6c84b296025825117ea19b9613ead3fa59 Telephony: Migrate RadioInfo from ScrollView to NestedScrollView
+
+
+====================
+    16-01-2025
+====================
+
+   * prebuilts/extract-tools
+format=01a49a4fd03fcc8f7839be3b5cfd389173287662 apktool: Update to v2.9.3-1-e3f0be1e-SNAPSHOT
+
+
+====================
+    16-01-2025
+====================
+
+   * prebuilts/tools-lineage
+format=5003f4a85a2b044721fb62732bf6113e85059323 tools-lineage: Import vboot_signer as of 15 release
+
+
+====================
+    16-01-2025
+====================
+
+   * system/chre
+format=0df06211c52f82b457a30c81f76376c81ff6c372 Revert "Remove unused Android.mk for `chre`"
+
+
+====================
+    16-01-2025
+====================
+
+   * system/sepolicy
+format=e567bea66be7b5804683461eed35d33f9ce70bd3 Merge tag 'android-15.0.0_r10' into staging/lineage-22.1_merge-android-15.0.0_r10
+
+
+====================
+    16-01-2025
+====================
+
+   * tools/extract-utils
+format=28ec8d6598fa73a65630a9a16327ca4cd468d78b extract_utils: add support for selecting a module based on device name
+format=18612c5472970501800854567518c0e17202036a extract_utils: add support for multiple common modules
+format=bd5c3ad27ef50bacf6a22427eb48e012ac2a3ca1 extract_utils: move ADB connection initialization to AdbSource.__init__()
+format=f4d3536ba26d6e7210d0e40aebad153df9d67330 extract_utils: remove bad ADB default of extract script
+format=8f333e932f725550207f69e4e58d65eea7aac164 fixup! extract_utils: move extract partitions filtering to extract_image()
+format=3e251468cff9b50f3a0f50faaefb38d2526df4c5 extract_utils: allow reading tar in any format
+format=fee2974dd1ff9d55319b29732a86fb9da7a83a82 extract_utils: import contextmanager from contextlib
+format=3d59bde16d1d2c4ed2ebf45328abe06fb3de66e8 extract_utils: ignore extension when checking archive type
+format=6ed407ff6a7183f0d31076c76000dd4b2f7f51cc extract_utils: move extract partitions filtering to extract_image()
+format=6314ccf4bbda0820bb33fd53b7f2f890242b0274 extract_utils: add support for generating dummy shared lib packages
+
+
+====================
+    16-01-2025
+====================
+
+   * vendor/crowdin
+format=0f2cb1c1792b9378771051ca69ebc2105c82bf9f Automatic translation import
+
+
+====================
+    16-01-2025
+====================
+
+   * vendor/lineage
+format=3b646b35b065548b48c30b65266110fc194cc3e0 soong: Unset custom charging path var if it is not defined
+format=142b5f991afc9f7e712c6ec270feec2b315065a2 Pixel 6-9: Sync SVN manually for Jan ASB
+format=85f5bd8e372fbc6857450bf6e50e0033418d241c vars: January 2025 Security update
+format=81b54f9f231b30256760a3214d978f2cb0e0f51c Enable Catapult as config_defaultListenerAccessPackages
+format=991fd49cd87f0a0c9139eaf80adc74845446211b fixup! fixup! roomservice: Migrate from GitHub API to git ls-remote
+format=d5aa270f99f4d7e3a3cd1b33e74f902e9d15a3c1 fixup! roomservice: Migrate from GitHub API to git ls-remote
+format=4de0265cdd02062361179ea9dc48cee389ff8b6d roomservice: Migrate from GitHub API to git ls-remote
+format=744306f2e5957386ab61d3de88ff79440ea602a5 apns: Update T-Mobile U.S. (310|260) from tmobile_us-62000000022.10
+format=ee73731e4ed1fc4ff11098dd73d3cfb13fceead7 roomservice: Exit if get_default_or_fallback_revision() fails
+format=292ca28a2ee0fe1693fc568d45e502e9a3b1ffbb kernel: Block HIP detection through HIP_PATH=none
+
+
+====================
+    16-01-2025
+====================
+
+   * vendor/qcom/opensource/commonsys/fm
+format=b9a26c3b816ff31291780fec8bcd3dd524da2d3b Automatic translation import
+
+
